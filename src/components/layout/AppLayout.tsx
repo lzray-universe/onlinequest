@@ -13,6 +13,7 @@ import {
 } from 'lucide-react'
 import { cn } from '../../lib/utils'
 import { Button } from '../ui/button'
+import { FontSelector } from './FontSelector'
 import { ThemeToggle } from './ThemeToggle'
 
 const navItems = [
@@ -65,6 +66,7 @@ export const AppLayout = ({ children }: { children?: React.ReactNode }) => {
             <div className="hidden text-sm text-muted-foreground lg:block">
               {currentLabel ?? '任务世界'}
             </div>
+            <FontSelector />
             <ThemeToggle />
           </div>
         </div>
