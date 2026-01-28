@@ -54,9 +54,22 @@ type QuestConditionDetailsProps = {
   data: unknown
 }
 
+type ConditionSection = {
+  key: string
+  label: string
+  value: unknown
+}
+
+type ConditionSectionResult = {
+  orderedSections: ConditionSection[]
+  extraEntries: Array<[string, unknown]>
+}
+
 export const QuestConditionDetails = ({ data }: QuestConditionDetailsProps) => {
-  const sections = useMemo(() => {
-    if (!isRecord(data)) return []
+  const sections = useMemo<ConditionSectionResult>(() => {
+    if (!isRecord(data)) {
+      return { orderedSections: [], extraEntries: [] as Array<[string, unknown]> }
+    }
 
     const orderedKeys: Array<[string, string]> = [
       ['finishCond', '完成条件'],
@@ -67,7 +80,7 @@ export const QuestConditionDetails = ({ data }: QuestConditionDetailsProps) => {
 
     const knownKeys = new Set(orderedKeys.map(([key]) => key))
 
-    const orderedSections = orderedKeys
+    const orderedSections: ConditionSection[] = orderedKeys
       .map(([key, label]) => ({
         key,
         label,
