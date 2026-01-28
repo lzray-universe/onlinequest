@@ -11,6 +11,7 @@ import {
   Star,
 } from 'lucide-react'
 import ReactMarkdown from 'react-markdown'
+import rehypeRaw from 'rehype-raw'
 import remarkGfm from 'remark-gfm'
 import { Badge } from '../components/ui/badge'
 import { Button } from '../components/ui/button'
@@ -236,7 +237,9 @@ export const QuestDetailPage = () => {
             <Card>
               <CardContent className="prose-quest max-w-none p-6">
                 {readable ? (
-                  <ReactMarkdown remarkPlugins={[remarkGfm]}>{readable}</ReactMarkdown>
+                  <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+                    {readable}
+                  </ReactMarkdown>
                 ) : (
                   <p className="text-sm text-muted-foreground">暂无可读剧情文件</p>
                 )}
