@@ -29,7 +29,13 @@ export const getManifest = () => fetchJson<ManifestQuest[]>('data/manifest.json'
 export const getIndexes = () => fetchJson<IndexesData>('data/indexes.json')
 export const getSiteStats = () => fetchJson<SiteStats>('data/site_stats.json')
 export const getQuestData = (id: number) => fetchJson<QuestData>(`data/quests/${id}.json`)
-export const getReadableMarkdown = (path: string) => fetchText(`data/${path}`)
+const formatReadableMarkdown = (content: string) =>
+  content.replace(/\*\*([^*\n]+?)：\*\*/g, '<strong>$1：</strong>')
+
+export const getReadableMarkdown = async (path: string) => {
+  const content = await fetchText(`data/${path}`)
+  return formatReadableMarkdown(content)
+}
 export const getBuildInfo = (name: string) => fetchJson<Record<string, any>>(`data/meta/${name}`)
 export const getSubtitleText = (path: string) => fetchText(`data/subtitles/${path}`)
 export const getSpeakerIndex = () =>
