@@ -1,4 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
+import ReactMarkdown from 'react-markdown'
+import rehypeRaw from 'rehype-raw'
+import remarkGfm from 'remark-gfm'
 
 const renderJson = (value: unknown) => JSON.stringify(value, null, 2)
 
@@ -156,5 +159,63 @@ export const QuestConditionBlock = ({ json }: QuestConditionBlockProps) => {
         <QuestConditionDetails data={parsed} />
       </div>
     </details>
+  )
+}
+
+type QuestMarkdownWithConditionsProps = {
+  markdown: string
+}
+
+const conditionRegex = /\*\*任务条件：\*\*[\s\S]*?```json\s*([\s\S]*?)```/g
+
+export const QuestMarkdownWithConditions = ({ markdown }: QuestMarkdownWithConditionsProps) => {
+  const parts = useMemo(() => {
+    const output: Array<{ id: string; content: string; json?: string }> = []
+    let match: RegExpExecArray | null
+    let cursor = 0
+    conditionRegex.lastIndex = 0
+
+    while ((match = conditionRegex.exec(markdown)) !== null) {
+      const [fullMatch, jsonBlock] = match
+      const start = match.index
+      if (start > cursor) {
+        output.push({ id: `${cursor}-${start}`, content: markdown.slice(cursor, start) })
+      }
+      output.push({
+        id: `condition-${start}`,
+        content: fullMatch.replace(/```json[\s\S]*```/, '').trim(),
+        json: jsonBlock.trim(),
+      })
+      cursor = start + fullMatch.length
+    }
+
+    if (cursor < markdown.length) {
+      output.push({ id: `tail-${cursor}`, content: markdown.slice(cursor) })
+    }
+
+    return output
+  }, [markdown])
+
+  if (parts.length === 0) {
+    return (
+      <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+        {markdown}
+      </ReactMarkdown>
+    )
+  }
+
+  return (
+    <div className="space-y-3">
+      {parts.map((part) => (
+        <div key={part.id} className="space-y-3">
+          {part.content && (
+            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+              {part.content}
+            </ReactMarkdown>
+          )}
+          {part.json && <QuestConditionBlock json={part.json} />}
+        </div>
+      ))}
+    </div>
   )
 }
