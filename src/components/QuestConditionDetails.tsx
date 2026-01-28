@@ -2,52 +2,54 @@ import { useEffect, useMemo, useState, type ComponentProps } from 'react'
 import ReactMarkdown, { type Components, type ExtraProps } from 'react-markdown'
 import rehypeRaw from 'rehype-raw'
 import remarkGfm from 'remark-gfm'
+import { Button } from './ui/button'
 
 const renderJson = (value: unknown) => JSON.stringify(value, null, 2)
 
 const isRecord = (value: unknown): value is Record<string, unknown> =>
   typeof value === 'object' && value !== null && !Array.isArray(value)
 
-type BranchListProps = {
+type BranchSelectorProps = {
   title: string
   branches: unknown[]
+  getLabel?: (branch: unknown, index: number) => string
 }
 
-const BranchList = ({ title, branches }: BranchListProps) => {
-  const [checked, setChecked] = useState(() => branches.map(() => false))
+const getConditionLabel = (branch: unknown, index: number) => {
+  if (isRecord(branch) && typeof branch.PAINLIBBLDK === 'string' && branch.PAINLIBBLDK.trim()) {
+    return branch.PAINLIBBLDK
+  }
+  return `条件 ${index + 1}`
+}
+
+const BranchSelector = ({ title, branches, getLabel = getConditionLabel }: BranchSelectorProps) => {
+  const [selectedIndex, setSelectedIndex] = useState(0)
 
   useEffect(() => {
-    setChecked(branches.map(() => false))
+    setSelectedIndex(0)
   }, [branches])
 
+  const activeBranch = branches[selectedIndex]
+
   return (
-    <div className="space-y-2">
+    <div className="space-y-3">
       <p className="text-xs font-semibold text-muted-foreground">{title}</p>
-      <div className="space-y-2">
-        {branches.map((branch, index) => (
-          <div key={index} className="rounded-lg border border-border bg-background p-3">
-            {branches.length > 1 && (
-              <label className="mb-2 flex items-center gap-2 text-xs font-medium text-muted-foreground">
-                <input
-                  type="checkbox"
-                  checked={checked[index] ?? false}
-                  onChange={() =>
-                    setChecked((prev) =>
-                      prev.map((value, currentIndex) =>
-                        currentIndex === index ? !value : value
-                      )
-                    )
-                  }
-                  className="h-3 w-3 rounded border-border"
-                />
-                选择分支 {index + 1}
-              </label>
-            )}
-            <pre className="overflow-auto text-xs leading-relaxed text-foreground/90">
-              {renderJson(branch)}
-            </pre>
-          </div>
-        ))}
+      {branches.length > 1 && (
+        <div className="flex flex-wrap gap-2">
+          {branches.map((branch, index) => (
+            <Button
+              key={index}
+              variant={selectedIndex === index ? 'default' : 'outline'}
+              size="sm"
+              onClick={() => setSelectedIndex(index)}
+            >
+              {getLabel(branch, index)}
+            </Button>
+          ))}
+        </div>
+      )}
+      <div className="rounded-lg border border-border bg-background p-3">
+        <QuestConditionDetails data={activeBranch} />
       </div>
     </div>
   )
@@ -111,7 +113,34 @@ export const QuestConditionDetails = ({ data }: QuestConditionDetailsProps) => {
       {orderedSections.map(({ key, label, value }) => {
         if (Array.isArray(value)) {
           if (value.length === 0) return null
-          return <BranchList key={key} title={label} branches={value} />
+          if (key === 'execActions') {
+            return (
+              <div key={key} className="space-y-2">
+                <p className="text-xs font-semibold text-muted-foreground">{label}</p>
+                <div className="space-y-2">
+                  {value.map((action, index) => (
+                    <div key={index} className="rounded-lg border border-border bg-background p-3">
+                      <p className="text-xs font-medium text-muted-foreground">动作 {index + 1}</p>
+                      <div className="mt-2">
+                        <QuestConditionDetails data={action} />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )
+          }
+
+          if (value.length === 1) {
+            return (
+              <div key={key} className="space-y-2">
+                <p className="text-xs font-semibold text-muted-foreground">{label}</p>
+                <QuestConditionDetails data={value[0]} />
+              </div>
+            )
+          }
+
+          return <BranchSelector key={key} title={label} branches={value} />
         }
 
         if (value === null || value === undefined) return null
@@ -282,26 +311,17 @@ const BranchGroup = ({ options }: BranchGroupProps) => {
 
   return (
     <div className="space-y-4 rounded-xl border border-border bg-muted/20 p-4">
-      <div className="flex flex-wrap gap-3">
-        {options.map((option, index) => {
-          const isSelected = index === selectedIndex
-          return (
-            <label
-              key={`${option.label}-${index}`}
-              className={`flex cursor-pointer items-center gap-2 rounded-lg border border-transparent px-2 py-1 text-sm ${
-                isSelected ? 'bg-muted font-semibold text-foreground' : 'text-muted-foreground'
-              }`}
-            >
-              <input
-                type="checkbox"
-                checked={isSelected}
-                onChange={() => setSelectedIndex(index)}
-                className="h-3 w-3 rounded border-border"
-              />
-              {option.label}
-            </label>
-          )
-        })}
+      <div className="flex flex-wrap gap-2">
+        {options.map((option, index) => (
+          <Button
+            key={`${option.label}-${index}`}
+            variant={selectedIndex === index ? 'default' : 'outline'}
+            size="sm"
+            onClick={() => setSelectedIndex(index)}
+          >
+            {option.label}
+          </Button>
+        ))}
       </div>
       <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={markdownComponents}>
         {options[selectedIndex]?.content ?? ''}
