@@ -136,6 +136,7 @@ const build = async () => {
   const manifest: Array<Record<string, unknown>> = []
   const byRegion: Record<string, Record<string, number[]>> = {}
   const byType: Record<string, Record<string, number[]>> = {}
+  const speakerIndex = new Map<number, Set<number>>()
 
   const siteStats = {
     generatedAt: new Date().toISOString(),
@@ -222,6 +223,7 @@ const build = async () => {
       .sort((a, b) => (b.count ?? 0) - (a.count ?? 0))
       .slice(0, 5)
 
+    const readablePath = readableMap.get(id) ?? ''
     manifest.push({
       id,
       title,
@@ -238,8 +240,8 @@ const build = async () => {
       needPlayerLevel,
       preMainQuestIds,
       nextMainQuestIds,
-      hasReadable: true,
-      readablePath: readableMap.get(id) ?? '',
+      hasReadable: Boolean(readablePath),
+      readablePath,
       hasCutscenes,
       hasVideoSubtitles,
       talkLineCount: dialogCount,
@@ -291,6 +293,10 @@ const build = async () => {
       } else {
         existing.count += count
       }
+
+      const entries = speakerIndex.get(speaker.speakerId) ?? new Set<number>()
+      entries.add(id)
+      speakerIndex.set(speaker.speakerId, entries)
     }
   }
 
@@ -328,6 +334,20 @@ const build = async () => {
   await fs.writeFile(
     path.join(publicDir, 'site_stats.json'),
     JSON.stringify(siteStats, null, 2),
+    'utf-8'
+  )
+  await fs.writeFile(
+    path.join(publicDir, 'speaker_index.json'),
+    JSON.stringify(
+      Object.fromEntries(
+        Array.from(speakerIndex.entries()).map(([speakerId, questIds]) => [
+          speakerId,
+          Array.from(questIds),
+        ])
+      ),
+      null,
+      2
+    ),
     'utf-8'
   )
 

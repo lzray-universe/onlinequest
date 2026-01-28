@@ -4,7 +4,7 @@ import {
   BookOpen,
   Compass,
   History,
-  Map,
+  Map as MapIcon,
   MessageCircle,
   Sparkles,
   Star,
@@ -104,7 +104,7 @@ export const DashboardPage = () => {
                     >
                       <div className="flex items-center justify-between">
                         <span className="flex items-center gap-2">
-                          <Map className="h-4 w-4 text-primary" /> {region}
+                          <MapIcon className="h-4 w-4 text-primary" /> {region}
                         </span>
                         <span className="text-xs text-muted-foreground">
                           {formatNumber(count)}

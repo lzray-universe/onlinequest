@@ -32,3 +32,5 @@ export const getQuestData = (id: number) => fetchJson<QuestData>(`data/quests/${
 export const getReadableMarkdown = (path: string) => fetchText(`data/${path}`)
 export const getBuildInfo = (name: string) => fetchJson<Record<string, any>>(`data/meta/${name}`)
 export const getSubtitleText = (path: string) => fetchText(`data/subtitles/${path}`)
+export const getSpeakerIndex = () =>
+  fetchJson<Record<string, number[]>>('data/speaker_index.json')

@@ -37,10 +37,7 @@ self.onmessage = (event: MessageEvent<SearchRequest | QueryRequest>) => {
       self.postMessage({ type: 'results', payload: [] })
       return
     }
-    const results = index
-      .filter((entry) => entry.text.includes(query))
-      .map((entry) => entry.id)
-      .slice(0, 200)
+    const results = index.filter((entry) => entry.text.includes(query)).map((entry) => entry.id)
     self.postMessage({ type: 'results', payload: results })
   }
 }

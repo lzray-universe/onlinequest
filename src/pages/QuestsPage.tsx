@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useVirtualizer } from '@tanstack/react-virtual'
 import { Filter, Search } from 'lucide-react'
@@ -31,9 +31,9 @@ const useSearchWorker = (manifest: ManifestQuest[] | null) => {
     return () => worker.terminate()
   }, [manifest])
 
-  const query = (value: string) => {
+  const query = useCallback((value: string) => {
     workerRef.current?.postMessage({ type: 'query', payload: { query: value } })
-  }
+  }, [])
 
   return { results, query }
 }
@@ -89,7 +89,20 @@ export const QuestsPage = () => {
       }
       return true
     })
-  }, [manifest, selectedRegions, selectedTypes, showHidden, filterCutscene, filterSubtitle, favoritesOnly, searchText, results])
+  }, [
+    manifest,
+    selectedRegions,
+    selectedTypes,
+    showHidden,
+    filterCutscene,
+    filterSubtitle,
+    favoritesOnly,
+    searchText,
+    results,
+    chapterQuery,
+    levelMin,
+    levelMax,
+  ])
 
   const parentRef = useRef<HTMLDivElement | null>(null)
   const rowVirtualizer = useVirtualizer({
