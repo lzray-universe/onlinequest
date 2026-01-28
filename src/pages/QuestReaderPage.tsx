@@ -1,14 +1,15 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, Copy, Moon, Sun, Type } from 'lucide-react'
-import { QuestMarkdownWithConditions } from '../components/QuestConditionDetails'
+import { QuestJsonReader } from '../components/QuestJsonReader'
 import { Button } from '../components/ui/button'
 import { Card } from '../components/ui/card'
 import { Input } from '../components/ui/input'
 import { useAsync } from '../hooks/useAsync'
-import { getManifest, getQuestData, getReadableMarkdown } from '../lib/data'
+import { getManifest, getQuestData } from '../lib/data'
 import { getReaderPosition, setReaderPosition } from '../lib/storage'
 import { clamp } from '../lib/utils'
+import { buildTalkRenderSegments } from '../lib/talkGraph'
 
 export const QuestReaderPage = () => {
   const { id } = useParams()
@@ -26,11 +27,6 @@ export const QuestReaderPage = () => {
     }
   }, [questMeta?.title])
 
-  const { data: readable } = useAsync(
-    () => (questMeta?.readablePath ? getReadableMarkdown(questMeta.readablePath) : Promise.resolve('')),
-    [questMeta?.readablePath]
-  )
-
   useEffect(() => {
     const position = getReaderPosition(questId)
     window.scrollTo({ top: position })
@@ -41,28 +37,43 @@ export const QuestReaderPage = () => {
 
   const combinedText = useMemo(() => {
     const parts: string[] = []
-    if (readable) parts.push(readable)
+    if (quest) {
+      parts.push(`# ${quest.mainQuestId} ${quest.title}`)
+      parts.push(quest.description)
+    }
     quest?.flow?.forEach((flow) => {
+      parts.push(`步骤 ${flow.order}：子任务 ${flow.subQuestId}`)
+      if (flow.stepDescription) {
+        parts.push(flow.stepDescription)
+      }
       flow.talks?.forEach((talk) => {
-        talk.dialogs?.forEach((dialog) => {
-          parts.push(`${dialog.speakerName ?? '未知角色'}：${dialog.text}`)
+        const segments = buildTalkRenderSegments(talk)
+        segments.forEach((segment) => {
+          if (segment.type === 'line') {
+            parts.push(`${segment.line.speakerName ?? '未知角色'}：${segment.line.text}`)
+            return
+          }
+          segment.options.forEach((option, index) => {
+            parts.push(`分支 ${index + 1}：${option.label}`)
+            option.lines.forEach((line) => {
+              parts.push(`${line.speakerName ?? '未知角色'}：${line.text}`)
+            })
+          })
         })
       })
+      if (!flow.talks?.length) {
+        parts.push('（此步骤无对话）')
+      }
     })
     quest?.questNarration?.forEach((line) => {
       parts.push(`[旁白] ${line.text}`)
     })
     return parts.join('\n')
-  }, [readable, quest])
+  }, [quest])
 
   const copyText = async (asMarkdown: boolean) => {
     const output = asMarkdown ? combinedText : combinedText.replace(/\n+/g, '\n')
     await navigator.clipboard.writeText(output)
-  }
-
-  const renderReadableWithConditions = () => {
-    if (!readable) return null
-    return <QuestMarkdownWithConditions markdown={readable} />
   }
 
   return (
@@ -113,7 +124,7 @@ export const QuestReaderPage = () => {
       <main className="mx-auto max-w-4xl space-y-6 px-4 py-10">
         <Card className="p-6">
           <div style={{ fontSize, lineHeight }} className="prose-quest">
-            {readable ? renderReadableWithConditions() : <p className="text-sm text-muted-foreground">暂无可读剧情</p>}
+            <QuestJsonReader quest={quest ?? undefined} questMeta={questMeta} />
           </div>
         </Card>
 

@@ -10,14 +10,14 @@ import {
   ScrollText,
   Star,
 } from 'lucide-react'
-import { QuestMarkdownWithConditions } from '../components/QuestConditionDetails'
+import { QuestJsonReader } from '../components/QuestJsonReader'
 import { Badge } from '../components/ui/badge'
 import { Button } from '../components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
 import { Input } from '../components/ui/input'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/tabs'
 import { useAsync } from '../hooks/useAsync'
-import { getManifest, getQuestData, getReadableMarkdown, getSubtitleText } from '../lib/data'
+import { getManifest, getQuestData, getSubtitleText } from '../lib/data'
 import { QUEST_TYPE_COLORS } from '../lib/questType'
 import { addRecent, getFavorites, toggleFavorite } from '../lib/storage'
 import { parseSrt } from '../lib/srt'
@@ -37,11 +37,6 @@ export const QuestDetailPage = () => {
   const [favorites, setFavorites] = useState(() => getFavorites())
   const [dialogFilter, setDialogFilter] = useState('')
   const [dialogSearch, setDialogSearch] = useState('')
-
-  const { data: readable } = useAsync(
-    () => (questMeta?.readablePath ? getReadableMarkdown(questMeta.readablePath) : Promise.resolve('')),
-    [questMeta?.readablePath]
-  )
 
   useEffect(() => {
     if (questMeta?.title) {
@@ -233,11 +228,11 @@ export const QuestDetailPage = () => {
         {activeTab === 'readable' && (
           <TabsContent>
             <Card>
-              <CardContent className="prose-quest max-w-none p-6">
-                {readable ? (
-                  <QuestMarkdownWithConditions markdown={readable} />
+              <CardContent className="max-w-none p-6">
+                {quest ? (
+                  <QuestJsonReader quest={quest ?? undefined} questMeta={questMeta} />
                 ) : (
-                  <p className="text-sm text-muted-foreground">暂无可读剧情文件</p>
+                  <p className="text-sm text-muted-foreground">暂无任务数据</p>
                 )}
               </CardContent>
             </Card>
