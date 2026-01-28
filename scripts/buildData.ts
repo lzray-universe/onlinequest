@@ -24,7 +24,8 @@ type QuestMeta = {
   cityName?: string
   showType?: string
   chapterTitle?: string
-  chapterNum?: number
+  chapterId?: number
+  chapterNum?: number | string
   recommendLevel?: number
   needPlayerLevel?: number
   preMainQuestIds?: number[]
@@ -95,6 +96,26 @@ const summarizeRewards = (rewards: unknown) => {
   return String(rewards)
 }
 
+const injectReadableChapterMeta = (
+  content: string,
+  meta: { chapterId: number; chapterNum: string }
+) => {
+  if (content.includes('**章节 ID**') || content.includes('**章节编号**')) return content
+  const lines = content.split('\n')
+  const headerIndex = lines.findIndex((line) => line.trim() === '## 任务信息')
+  if (headerIndex === -1) return content
+  const chapterLineIndex = lines.findIndex(
+    (line, index) => index > headerIndex && line.includes('**所属章节**')
+  )
+  let insertAt = chapterLineIndex >= 0 ? chapterLineIndex + 1 : headerIndex + 1
+  if (lines[insertAt] === '') insertAt += 1
+  const chapterIdLabel = meta.chapterId ? String(meta.chapterId) : '--'
+  const chapterNumLabel = meta.chapterNum ? meta.chapterNum : '--'
+  const inserts = [`- **章节 ID**：${chapterIdLabel}`, `- **章节编号**：${chapterNumLabel}`]
+  lines.splice(insertAt, 0, ...inserts)
+  return lines.join('\n')
+}
+
 const readJson = async (filePath: string) => {
   const content = await fs.readFile(filePath, 'utf-8')
   return JSON.parse(content) as Quest
@@ -122,6 +143,7 @@ const build = async () => {
 
   const readableFiles = await fs.readdir(readableDir).catch(() => [])
   const readableMap = new Map<number, string>()
+  const readableMeta = new Map<number, { chapterId: number; chapterNum: string }>()
   for (const file of readableFiles) {
     const match = file.match(/^(\d+)(?:_|\.md)/)
     if (!match) continue
@@ -194,7 +216,8 @@ const build = async () => {
     const showType = meta.showType ?? 'QUEST_SHOW'
     const hidden = showType === 'QUEST_HIDDEN' || title.includes('$HIDDEN')
     const chapterTitle = meta.chapterTitle ?? ''
-    const chapterNum = meta.chapterNum ?? 0
+    const chapterId = meta.chapterId ?? 0
+    const chapterNum = meta.chapterNum ? String(meta.chapterNum).trim() : ''
     const recommendLevel = meta.recommendLevel ?? 0
     const needPlayerLevel = meta.needPlayerLevel ?? 0
     const preMainQuestIds = meta.preMainQuestIds ?? []
@@ -234,6 +257,7 @@ const build = async () => {
       regionKey: slug(region),
       showType,
       hidden,
+      chapterId,
       chapterTitle,
       chapterNum,
       recommendLevel,
@@ -249,6 +273,7 @@ const build = async () => {
       topSpeakers,
       rewardSummary: summarizeRewards(meta.rewards),
     })
+    readableMeta.set(id, { chapterId, chapterNum })
 
     if (!byRegion[region]) byRegion[region] = {}
     if (!byRegion[region][questType]) byRegion[region][questType] = []
@@ -352,7 +377,26 @@ const build = async () => {
   )
 
   await copyDir(questsDir, path.join(publicDir, 'quests'))
-  await copyDir(readableDir, path.join(publicDir, 'readable'))
+  const readableTargetDir = path.join(publicDir, 'readable')
+  await ensureDir(readableTargetDir)
+  for (const file of readableFiles) {
+    const fromPath = path.join(readableDir, file)
+    const toPath = path.join(readableTargetDir, file)
+    const match = file.match(/^(\d+)(?:_|\.md)/)
+    if (!match) {
+      await fs.copyFile(fromPath, toPath)
+      continue
+    }
+    const id = Number(match[1])
+    const meta = readableMeta.get(id)
+    if (!meta) {
+      await fs.copyFile(fromPath, toPath)
+      continue
+    }
+    const content = await fs.readFile(fromPath, 'utf-8')
+    const updated = injectReadableChapterMeta(content, meta)
+    await fs.writeFile(toPath, updated, 'utf-8')
+  }
   await copyDir(subtitlesDir, path.join(publicDir, 'subtitles'))
   await copyDir(metaDir, path.join(publicDir, 'meta'))
 

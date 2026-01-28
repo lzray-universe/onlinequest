@@ -1,38 +1,38 @@
 import { useMemo, useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import type { ManifestQuest, QuestTypeCode } from '../types/quest'
-import { QuestCard } from './QuestCard'
+import { ChapterCard } from './ChapterCard'
 import { QUEST_TYPE_LABELS } from '../lib/questType'
 import { Button } from './ui/button'
+import { groupQuestsByChapter, sortChapterGroups } from '../lib/chapter'
 
 export type SortKey = 'chapter' | 'level' | 'id' | 'title'
 
 export const QuestSection = ({
   quests,
   questType,
+  region,
   defaultOpen = true,
   sortKey,
 }: {
   quests: ManifestQuest[]
   questType: QuestTypeCode
+  region?: string
   defaultOpen?: boolean
   sortKey: SortKey
 }) => {
   const [open, setOpen] = useState(defaultOpen)
 
-  const sorted = useMemo(() => {
-    const next = [...quests]
-    switch (sortKey) {
-      case 'chapter':
-        return next.sort((a, b) => a.chapterNum - b.chapterNum)
-      case 'level':
-        return next.sort((a, b) => a.recommendLevel - b.recommendLevel)
-      case 'title':
-        return next.sort((a, b) => a.title.localeCompare(b.title, 'zh-CN'))
-      default:
-        return next.sort((a, b) => a.id - b.id)
-    }
+  const chapters = useMemo(() => {
+    const groups = groupQuestsByChapter(quests)
+    return sortChapterGroups(groups, sortKey)
   }, [quests, sortKey])
+  const searchParams = useMemo(() => {
+    const params = new URLSearchParams()
+    if (questType) params.set('type', questType)
+    if (region) params.set('region', region)
+    return params.toString() || undefined
+  }, [questType, region])
 
   return (
     <section className="space-y-4">
@@ -48,8 +48,8 @@ export const QuestSection = ({
       </div>
       {open && (
         <div className="grid gap-4">
-          {sorted.map((quest) => (
-            <QuestCard key={quest.id} quest={quest} />
+          {chapters.map((chapter) => (
+            <ChapterCard key={chapter.chapterId} chapter={chapter} searchParams={searchParams} />
           ))}
         </div>
       )}

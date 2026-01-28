@@ -19,7 +19,7 @@ export const QuestCard = ({ quest }: { quest: ManifestQuest }) => {
             {quest.title}
           </Link>
           <p className="mt-1 text-xs text-muted-foreground">
-            {quest.chapterTitle || '未分类章节'} · 推荐等级 {quest.recommendLevel || '--'}
+            {quest.chapterNum || quest.chapterTitle || '未分类章节'} · 推荐等级 {quest.recommendLevel || '--'}
           </p>
         </div>
         <div className="flex items-center gap-2">

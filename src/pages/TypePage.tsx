@@ -93,7 +93,7 @@ export const TypePage = () => {
               </div>
               <Badge variant="secondary">{region}</Badge>
             </div>
-            <QuestSection questType={type} quests={quests} sortKey={sortKey} />
+            <QuestSection questType={type} quests={quests} sortKey={sortKey} region={region} />
           </div>
         ))}
       </div>

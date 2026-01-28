@@ -6,8 +6,9 @@ import { Button } from '../components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
 import { Input } from '../components/ui/input'
 import { Toggle } from '../components/ui/toggle'
-import { QuestCard } from '../components/QuestCard'
+import { ChapterCard } from '../components/ChapterCard'
 import { useAsync } from '../hooks/useAsync'
+import { groupQuestsByChapter, sortChapterGroups } from '../lib/chapter'
 import { getIndexes, getManifest } from '../lib/data'
 import { QUEST_TYPE_LABELS, QUEST_TYPE_ORDER } from '../lib/questType'
 import type { ManifestQuest, QuestTypeCode } from '../types/quest'
@@ -105,10 +106,14 @@ export const QuestsPage = () => {
   ])
 
   const parentRef = useRef<HTMLDivElement | null>(null)
+  const chapters = useMemo(() => {
+    const groups = groupQuestsByChapter(filtered)
+    return sortChapterGroups(groups, 'chapter')
+  }, [filtered])
   const rowVirtualizer = useVirtualizer({
-    count: filtered.length,
+    count: chapters.length,
     getScrollElement: () => parentRef.current,
-    estimateSize: () => 200,
+    estimateSize: () => 140,
     overscan: 8,
   })
 
@@ -252,7 +257,7 @@ export const QuestsPage = () => {
       )}
 
       <div className="text-sm text-muted-foreground">
-        共找到 {filtered.length} 个任务
+        共找到 {filtered.length} 个任务 · {chapters.length} 个章节
       </div>
 
       <div
@@ -267,10 +272,10 @@ export const QuestsPage = () => {
           }}
         >
           {rowVirtualizer.getVirtualItems().map((virtualRow) => {
-            const quest = filtered[virtualRow.index]
+            const chapter = chapters[virtualRow.index]
             return (
               <div
-                key={quest.id}
+                key={chapter.chapterId}
                 style={{
                   position: 'absolute',
                   top: 0,
@@ -280,7 +285,7 @@ export const QuestsPage = () => {
                 }}
               >
                 <div className="pb-4">
-                  <QuestCard quest={quest} />
+                  <ChapterCard chapter={chapter} />
                 </div>
               </div>
             )
