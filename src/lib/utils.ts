@@ -6,7 +6,15 @@ export const cn = (...inputs: ClassValue[]) => {
 }
 
 export const getAssetUrl = (path: string) => {
-  return `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
+  if (/^https?:\/\//i.test(path)) {
+    return path
+  }
+  const normalized = path.replace(/^\//, '')
+  if (typeof window === 'undefined') {
+    return `${import.meta.env.BASE_URL}${normalized}`
+  }
+  const base = new URL('./', window.location.href)
+  return new URL(normalized, base).toString()
 }
 
 export const formatNumber = (value: number) => {
