@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState, type ReactNode } from 'react'
 import ReactMarkdown from 'react-markdown'
 import rehypeRaw from 'rehype-raw'
 import remarkGfm from 'remark-gfm'
@@ -141,6 +141,180 @@ type QuestConditionBlockProps = {
   json: string
 }
 
+type BranchOption = {
+  label: string
+  content: string
+}
+
+type MarkdownSection =
+  | { type: 'md'; content: string }
+  | { type: 'branch'; options: BranchOption[] }
+
+const branchHeadingRegex = /^###\s*(分支|选择|选项)：\s*(.+)\s*$/
+const branchBoldRegex = /^\*\*(分支|选择|选项)：\s*(.+?)\*\*\s*$/
+const branchStrongRegex = /^<strong>(分支|选择|选项)：<\/strong>\s*(.+)\s*$/
+const headingRegex = /^#{1,6}\s+/
+
+const getBranchLabel = (line: string) => {
+  const headingMatch = line.match(branchHeadingRegex)
+  if (headingMatch) return headingMatch[2]?.trim() ?? ''
+
+  const boldMatch = line.match(branchBoldRegex)
+  if (boldMatch) return boldMatch[2]?.trim() ?? ''
+
+  const strongMatch = line.match(branchStrongRegex)
+  if (strongMatch) return strongMatch[2]?.trim() ?? ''
+
+  return null
+}
+
+const parseMarkdownWithBranches = (markdown: string): MarkdownSection[] => {
+  const lines = markdown.split('\n')
+  const sections: MarkdownSection[] = []
+  let normalBuffer: string[] = []
+  let branchOptions: Array<{ label: string; contentLines: string[]; titleLine: string }> | null =
+    null
+  let currentBranchIndex = -1
+
+  const flushNormal = () => {
+    if (normalBuffer.length > 0) {
+      sections.push({ type: 'md', content: normalBuffer.join('\n') })
+      normalBuffer = []
+    }
+  }
+
+  const finalizeBranchGroup = () => {
+    if (!branchOptions) return
+    if (branchOptions.length >= 2) {
+      sections.push({
+        type: 'branch',
+        options: branchOptions.map((option) => ({
+          label: option.label,
+          content: option.contentLines.join('\n').trim(),
+        })),
+      })
+    } else if (branchOptions.length === 1) {
+      const option = branchOptions[0]
+      const content = [option.titleLine, ...option.contentLines].join('\n')
+      sections.push({ type: 'md', content })
+    }
+    branchOptions = null
+    currentBranchIndex = -1
+  }
+
+  lines.forEach((line) => {
+    const label = getBranchLabel(line)
+    const isHeadingLine = headingRegex.test(line)
+
+    if (label) {
+      flushNormal()
+      if (!branchOptions) branchOptions = []
+      branchOptions.push({ label, contentLines: [], titleLine: line })
+      currentBranchIndex = branchOptions.length - 1
+      return
+    }
+
+    if (branchOptions && currentBranchIndex >= 0) {
+      if (isHeadingLine) {
+        finalizeBranchGroup()
+        normalBuffer.push(line)
+        return
+      }
+      branchOptions[currentBranchIndex]?.contentLines.push(line)
+      return
+    }
+
+    normalBuffer.push(line)
+  })
+
+  flushNormal()
+  finalizeBranchGroup()
+
+  return sections
+}
+
+const markdownComponents = {
+  code({
+    inline,
+    className,
+    children,
+    ...props
+  }: {
+    inline?: boolean
+    className?: string
+    children: ReactNode
+  }) {
+    if (inline) {
+      return (
+        <code className={className} {...props}>
+          {children}
+        </code>
+      )
+    }
+
+    const isJson = (className ?? '').includes('language-json')
+    if (!isJson) {
+      return (
+        <pre className="overflow-auto rounded-lg bg-muted p-3 text-xs leading-relaxed">
+          <code className={className} {...props}>
+            {children}
+          </code>
+        </pre>
+      )
+    }
+
+    return (
+      <details className="rounded-lg border border-border bg-muted/40 p-3">
+        <summary className="cursor-pointer text-xs font-semibold text-muted-foreground">
+          展开 JSON
+        </summary>
+        <pre className="mt-3 overflow-auto rounded-lg bg-muted p-3 text-xs leading-relaxed">
+          <code className={className} {...props}>
+            {children}
+          </code>
+        </pre>
+      </details>
+    )
+  },
+}
+
+type BranchGroupProps = {
+  options: BranchOption[]
+}
+
+const BranchGroup = ({ options }: BranchGroupProps) => {
+  const [selectedIndex, setSelectedIndex] = useState(0)
+
+  return (
+    <div className="space-y-4 rounded-xl border border-border bg-muted/20 p-4">
+      <div className="flex flex-wrap gap-3">
+        {options.map((option, index) => {
+          const isSelected = index === selectedIndex
+          return (
+            <label
+              key={`${option.label}-${index}`}
+              className={`flex cursor-pointer items-center gap-2 rounded-lg border border-transparent px-2 py-1 text-sm ${
+                isSelected ? 'bg-muted font-semibold text-foreground' : 'text-muted-foreground'
+              }`}
+            >
+              <input
+                type="checkbox"
+                checked={isSelected}
+                onChange={() => setSelectedIndex(index)}
+                className="h-3 w-3 rounded border-border"
+              />
+              {option.label}
+            </label>
+          )
+        })}
+      </div>
+      <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={markdownComponents}>
+        {options[selectedIndex]?.content ?? ''}
+      </ReactMarkdown>
+    </div>
+  )
+}
+
 export const QuestConditionBlock = ({ json }: QuestConditionBlockProps) => {
   const parsed = useMemo(() => {
     try {
@@ -166,7 +340,8 @@ type QuestMarkdownWithConditionsProps = {
   markdown: string
 }
 
-const conditionRegex = /\*\*任务条件：\*\*[\s\S]*?```json\s*([\s\S]*?)```/g
+const conditionRegex =
+  /(?:\*\*任务条件：\*\*|<strong>任务条件：<\/strong>)[\s\S]*?```json\s*([\s\S]*?)```/g
 
 export const QuestMarkdownWithConditions = ({ markdown }: QuestMarkdownWithConditionsProps) => {
   const parts = useMemo(() => {
@@ -196,23 +371,35 @@ export const QuestMarkdownWithConditions = ({ markdown }: QuestMarkdownWithCondi
     return output
   }, [markdown])
 
+  const renderMarkdownWithBranches = (content: string) => {
+    const sections = parseMarkdownWithBranches(content)
+    return sections.map((section, index) => {
+      if (section.type === 'branch') {
+        return <BranchGroup key={`branch-${index}`} options={section.options} />
+      }
+
+      return (
+        <ReactMarkdown
+          key={`md-${index}`}
+          remarkPlugins={[remarkGfm]}
+          rehypePlugins={[rehypeRaw]}
+          components={markdownComponents}
+        >
+          {section.content}
+        </ReactMarkdown>
+      )
+    })
+  }
+
   if (parts.length === 0) {
-    return (
-      <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
-        {markdown}
-      </ReactMarkdown>
-    )
+    return <div className="space-y-3">{renderMarkdownWithBranches(markdown)}</div>
   }
 
   return (
     <div className="space-y-3">
       {parts.map((part) => (
         <div key={part.id} className="space-y-3">
-          {part.content && (
-            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
-              {part.content}
-            </ReactMarkdown>
-          )}
+          {part.content && <div className="space-y-3">{renderMarkdownWithBranches(part.content)}</div>}
           {part.json && <QuestConditionBlock json={part.json} />}
         </div>
       ))}
