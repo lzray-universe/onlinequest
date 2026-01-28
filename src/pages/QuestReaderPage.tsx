@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, Copy, Moon, Sun, Type } from 'lucide-react'
 import ReactMarkdown from 'react-markdown'
+import rehypeRaw from 'rehype-raw'
 import remarkGfm from 'remark-gfm'
 import { QuestConditionBlock } from '../components/QuestConditionDetails'
 import { Button } from '../components/ui/button'
@@ -88,12 +89,20 @@ export const QuestReaderPage = () => {
     }
 
     if (parts.length === 0) {
-      return <ReactMarkdown remarkPlugins={[remarkGfm]}>{readable}</ReactMarkdown>
+      return (
+        <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+          {readable}
+        </ReactMarkdown>
+      )
     }
 
     return parts.map((part) => (
       <div key={part.id} className="space-y-3">
-        {part.content && <ReactMarkdown remarkPlugins={[remarkGfm]}>{part.content}</ReactMarkdown>}
+        {part.content && (
+          <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+            {part.content}
+          </ReactMarkdown>
+        )}
         {part.json && <QuestConditionBlock json={part.json} />}
       </div>
     ))
