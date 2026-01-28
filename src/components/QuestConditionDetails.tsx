@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState, type ReactNode } from 'react'
-import ReactMarkdown from 'react-markdown'
+import { useEffect, useMemo, useState, type ComponentProps } from 'react'
+import ReactMarkdown, { type Components, type ExtraProps } from 'react-markdown'
 import rehypeRaw from 'rehype-raw'
 import remarkGfm from 'remark-gfm'
 
@@ -233,20 +233,15 @@ const parseMarkdownWithBranches = (markdown: string): MarkdownSection[] => {
   return sections
 }
 
-const markdownComponents = {
-  code({
-    inline,
-    className,
-    children,
-    ...props
-  }: {
-    inline?: boolean
-    className?: string
-    children: ReactNode
-  }) {
+type MarkdownCodeProps = ComponentProps<'code'> & ExtraProps & { inline?: boolean }
+
+const markdownComponents: Components = {
+  code(props) {
+    const { className, children, ...rest } = props
+    const inline = (props as MarkdownCodeProps).inline
     if (inline) {
       return (
-        <code className={className} {...props}>
+        <code className={className} {...rest}>
           {children}
         </code>
       )
@@ -256,7 +251,7 @@ const markdownComponents = {
     if (!isJson) {
       return (
         <pre className="overflow-auto rounded-lg bg-muted p-3 text-xs leading-relaxed">
-          <code className={className} {...props}>
+          <code className={className} {...rest}>
             {children}
           </code>
         </pre>
@@ -269,7 +264,7 @@ const markdownComponents = {
           展开 JSON
         </summary>
         <pre className="mt-3 overflow-auto rounded-lg bg-muted p-3 text-xs leading-relaxed">
-          <code className={className} {...props}>
+          <code className={className} {...rest}>
             {children}
           </code>
         </pre>
