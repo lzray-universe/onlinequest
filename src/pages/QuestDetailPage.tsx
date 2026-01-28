@@ -10,9 +10,7 @@ import {
   ScrollText,
   Star,
 } from 'lucide-react'
-import ReactMarkdown from 'react-markdown'
-import rehypeRaw from 'rehype-raw'
-import remarkGfm from 'remark-gfm'
+import { QuestMarkdownWithConditions } from '../components/QuestConditionDetails'
 import { Badge } from '../components/ui/badge'
 import { Button } from '../components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
@@ -237,9 +235,7 @@ export const QuestDetailPage = () => {
             <Card>
               <CardContent className="prose-quest max-w-none p-6">
                 {readable ? (
-                  <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
-                    {readable}
-                  </ReactMarkdown>
+                  <QuestMarkdownWithConditions markdown={readable} />
                 ) : (
                   <p className="text-sm text-muted-foreground">暂无可读剧情文件</p>
                 )}

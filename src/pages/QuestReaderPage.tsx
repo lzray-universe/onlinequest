@@ -1,10 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, Copy, Moon, Sun, Type } from 'lucide-react'
-import ReactMarkdown from 'react-markdown'
-import rehypeRaw from 'rehype-raw'
-import remarkGfm from 'remark-gfm'
-import { QuestConditionBlock } from '../components/QuestConditionDetails'
+import { QuestMarkdownWithConditions } from '../components/QuestConditionDetails'
 import { Button } from '../components/ui/button'
 import { Card } from '../components/ui/card'
 import { Input } from '../components/ui/input'
@@ -63,49 +60,9 @@ export const QuestReaderPage = () => {
     await navigator.clipboard.writeText(output)
   }
 
-  const conditionRegex = /\*\*任务条件：\*\*[\s\S]*?```json\s*([\s\S]*?)```/g
   const renderReadableWithConditions = () => {
     if (!readable) return null
-    const parts: Array<{ id: string; content: string; json?: string }> = []
-    let match: RegExpExecArray | null
-    let cursor = 0
-
-    while ((match = conditionRegex.exec(readable)) !== null) {
-      const [fullMatch, jsonBlock] = match
-      const start = match.index
-      if (start > cursor) {
-        parts.push({ id: `${cursor}-${start}`, content: readable.slice(cursor, start) })
-      }
-      parts.push({
-        id: `condition-${start}`,
-        content: fullMatch.replace(/```json[\s\S]*```/, '').trim(),
-        json: jsonBlock.trim(),
-      })
-      cursor = start + fullMatch.length
-    }
-
-    if (cursor < readable.length) {
-      parts.push({ id: `tail-${cursor}`, content: readable.slice(cursor) })
-    }
-
-    if (parts.length === 0) {
-      return (
-        <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
-          {readable}
-        </ReactMarkdown>
-      )
-    }
-
-    return parts.map((part) => (
-      <div key={part.id} className="space-y-3">
-        {part.content && (
-          <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
-            {part.content}
-          </ReactMarkdown>
-        )}
-        {part.json && <QuestConditionBlock json={part.json} />}
-      </div>
-    ))
+    return <QuestMarkdownWithConditions markdown={readable} />
   }
 
   return (
