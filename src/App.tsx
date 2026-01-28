@@ -4,6 +4,7 @@ import { DashboardPage } from './pages/DashboardPage'
 import { RegionPage } from './pages/RegionPage'
 import { TypePage } from './pages/TypePage'
 import { QuestsPage } from './pages/QuestsPage'
+import { ChapterPage } from './pages/ChapterPage'
 import { QuestDetailPage } from './pages/QuestDetailPage'
 import { QuestReaderPage } from './pages/QuestReaderPage'
 import { SpeakersPage } from './pages/SpeakersPage'
@@ -17,6 +18,7 @@ const App = () => {
       <Route path="/quest/:id/reader" element={<QuestReaderPage />} />
       <Route element={<AppLayout />}>
         <Route path="/" element={<DashboardPage />} />
+        <Route path="/chapter/:chapterId" element={<ChapterPage />} />
         <Route path="/region/:regionKey" element={<RegionPage />} />
         <Route path="/type/:questType" element={<TypePage />} />
         <Route path="/quests" element={<QuestsPage />} />

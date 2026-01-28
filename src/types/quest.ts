@@ -10,8 +10,9 @@ export type ManifestQuest = {
   regionKey: string
   showType: string
   hidden: boolean
+  chapterId: number
   chapterTitle: string
-  chapterNum: number
+  chapterNum: string
   recommendLevel: number
   needPlayerLevel: number
   preMainQuestIds: number[]

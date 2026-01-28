@@ -103,7 +103,9 @@ export const RegionPage = () => {
         {QUEST_TYPE_ORDER.map((type) => {
           const quests = filtered.filter((quest) => quest.questType === type)
           if (!quests.length) return null
-          return <QuestSection key={type} questType={type} quests={quests} sortKey={sortKey} />
+          return (
+            <QuestSection key={type} questType={type} quests={quests} sortKey={sortKey} region={region} />
+          )
         })}
       </div>
     </div>
