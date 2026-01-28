@@ -1,0 +1,2607 @@
+{
+  "mainQuestId": 73206,
+  "title": "献给某人的蔷薇·石头能不能开花",
+  "description": "阿凡的花种依然没有发芽，试着帮助失落的他吧。",
+  "titleTextMapHash": 423979719,
+  "descTextMapHash": 2168627198,
+  "mainQuestExcel": {
+    "mainQuestId": 73206,
+    "titleTextMapHash": 423979719,
+    "title": "献给某人的蔷薇·石头能不能开花",
+    "descTextMapHash": 2168627198,
+    "description": "阿凡的花种依然没有发芽，试着帮助失落的他吧。",
+    "chapterId": 0,
+    "mainQuestTag": "MAINQUEST_TAG_NONE",
+    "activeMode": "PLAY_MODE_ALL",
+    "activityId": 0,
+    "luaPath": "Actor/Quest/WQ73206",
+    "mainQuestRaw": {
+      "activeMode": "PLAY_MODE_ALL",
+      "activityId": 0,
+      "chapterId": 0,
+      "descTextMapHash": 2168627198,
+      "EPJHBBICPCA": false,
+      "FFOAGHNMJKJ": 0,
+      "FNFALGGACGA": "",
+      "FOKHPBAGMPB": "",
+      "GMENNHMBBOH": [
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        }
+      ],
+      "id": 73206,
+      "IELNANBAMLH": "QUEST_PAUSE_RES_DESTROY_NONE",
+      "IGHALKGCHAB": 4007649761,
+      "LEFIHLHODBM": [],
+      "luaPath": "Actor/Quest/WQ73206",
+      "mainQuestTag": "MAINQUEST_TAG_NONE",
+      "MHHFFHCLDKI": false,
+      "PEDANLIDLGE": 0,
+      "PEFIFLDHPEE": false,
+      "recommendLevel": 0,
+      "repeatable": false,
+      "resId": 0,
+      "rewardIdList": [
+        173206
+      ],
+      "series": 73193,
+      "showRedPoint": false,
+      "showType": "QUEST_SHOW",
+      "specialShowCondIdList": [],
+      "specialShowQuestId": 0,
+      "specialShowRewardId": [],
+      "suggestTrackMainQuestList": [],
+      "suggestTrackOutOfOrder": false,
+      "taskID": 0,
+      "titleTextMapHash": 423979719,
+      "type": "WQ",
+      "unlockDescTextMapHash": 1091695406
+    }
+  },
+  "flow": [
+    {
+      "subQuestId": 7320608,
+      "order": 1,
+      "stepDescription": "(test)73205与阿凡闲聊$HIDDEN",
+      "stepDescTextMapHash": 2755180876,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7320505,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+        "LNHLPKELCAL": [
+          "4233"
+        ],
+        "NOCCOBOFKHP": 3,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7320505,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+          "LNHLPKELCAL": [
+            "4233"
+          ],
+          "NOCCOBOFKHP": 3,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+        }
+      }
+    },
+    {
+      "subQuestId": 7320609,
+      "order": 2,
+      "stepDescription": "(test)计时$HIDDEN",
+      "stepDescTextMapHash": 1743529724,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            73206,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_TIME_VAR_PASS_DAY",
+          "PPFLKMOMKAI": "1"
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+        "LNHLPKELCAL": [],
+        "NOCCOBOFKHP": 0,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              73206,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_TIME_VAR_PASS_DAY",
+            "PPFLKMOMKAI": "1"
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+          "LNHLPKELCAL": [],
+          "NOCCOBOFKHP": 0,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+        }
+      }
+    },
+    {
+      "subQuestId": 7320611,
+      "order": 3,
+      "stepDescription": "（test）回滚隔离$HIDDEN",
+      "stepDescTextMapHash": 2211041668,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7320609,
+            3
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+        "LNHLPKELCAL": [],
+        "NOCCOBOFKHP": 0,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7320609,
+              3
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+          "LNHLPKELCAL": [],
+          "NOCCOBOFKHP": 0,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+        }
+      }
+    },
+    {
+      "subQuestId": 7320601,
+      "order": 4,
+      "stepDescription": "(test)第三次拜访阿凡$HIDDEN",
+      "stepDescTextMapHash": 3061584660,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7320601,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+        "LNHLPKELCAL": [
+          "4233"
+        ],
+        "NOCCOBOFKHP": 3,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+      },
+      "isHidden": false,
+      "talkIds": [
+        7320601
+      ],
+      "talks": [
+        {
+          "talkId": 7320601,
+          "talkConfig": {
+            "checkActionAfter": false,
+            "crowdLOD0List": [],
+            "decoratorID": 0,
+            "disableTalkReview": false,
+            "dontBlockDaily": false,
+            "enableCameraDisplacement": false,
+            "extraLoadMarkId": [],
+            "finishExec": [
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              }
+            ],
+            "forceNpcNotDestroy": false,
+            "heroRuleId": 0,
+            "ignoreDragonTalkRule": false,
+            "isEnableNoBlackInter": false,
+            "linkBehaviorGrpId": 0,
+            "loadType": "TALK_NORMAL_QUEST",
+            "lockGameTime": false,
+            "lowPriority": false,
+            "newTalkFinishTime": false,
+            "onlyQuestNpc": false,
+            "participantId": [],
+            "prePerformCfg": "",
+            "questIdleTalk": false,
+            "randomTalkPos": 0,
+            "randomTalkPriorityList": [],
+            "removeDuplicatedRandomTalk": false,
+            "stayFreeStyle": false,
+            "talkMarkHideList": [],
+            "talkMarkType": "TALK_MARK_COMMON",
+            "activeMode": "PLAY_MODE_HOST",
+            "beginCond": [
+              {
+                "param": [
+                  "7320601",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              }
+            ],
+            "beginCondComb": "LOGIC_NONE",
+            "beginWay": "TALK_BEGIN_MANUAL",
+            "heroTalk": "TALK_HERO_MAIN",
+            "id": 7320601,
+            "initDialog": 732060101,
+            "nextRandomTalks": [],
+            "nextTalks": [],
+            "npcId": [
+              4233
+            ],
+            "performCfg": "QuestDialogue/WQ/Sumeru_73206/Q7320601",
+            "priority": 5,
+            "questId": 73206,
+            "showRandomTalkCount": 0
+          },
+          "dialogs": [
+            {
+              "nodeId": 732060101,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 3381575282,
+              "text": "你们来了啊。",
+              "nextNodeIds": [
+                732060102
+              ]
+            },
+            {
+              "nodeId": 732060102,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 2885721714,
+              "text": "种子怎么样了？",
+              "nextNodeIds": [
+                732060103
+              ]
+            },
+            {
+              "nodeId": 732060103,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 3783396138,
+              "text": "所有的种子都还没有抽芽…",
+              "nextNodeIds": [
+                732060104
+              ]
+            },
+            {
+              "nodeId": 732060104,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 123130618,
+              "text": "我检查过种子表面了，连一点点发芽的迹象都没有。",
+              "nextNodeIds": [
+                732060105
+              ]
+            },
+            {
+              "nodeId": 732060105,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 2715206330,
+              "text": "这到底是为什么呢？",
+              "nextNodeIds": [
+                732060106
+              ]
+            },
+            {
+              "nodeId": 732060106,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 1359683154,
+              "text": "种子我肯定没认错，它们都是我照着鬼老头的手记从储藏室里翻出来的。",
+              "nextNodeIds": [
+                732060107
+              ]
+            },
+            {
+              "nodeId": 732060107,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 3044512618,
+              "text": "按照他的记录，种子的保存时间很长，只要保证干燥，它们就不会坏。",
+              "nextNodeIds": [
+                732060108
+              ]
+            },
+            {
+              "nodeId": 732060108,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 2629812138,
+              "text": "栽培方式也不该有问题，该浇的水和该施的肥料我都没有落下，到底为什么呢？",
+              "nextNodeIds": [
+                732060109
+              ]
+            },
+            {
+              "nodeId": 732060109,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 1522778810,
+              "text": "别着急呀，阿凡爷爷，再等等看呢？",
+              "nextNodeIds": [
+                732060110
+              ]
+            },
+            {
+              "nodeId": 732060110,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 3215548586,
+              "text": "#每次我和{NICKNAME}去野外摘果子摘花，摘完之后也要等好几天它们才能重新长出来。",
+              "nextNodeIds": [
+                732060111,
+                732060112
+              ]
+            },
+            {
+              "nodeId": 732060111,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 415016554,
+              "text": "耐心点。",
+              "nextNodeIds": [
+                732060113
+              ]
+            },
+            {
+              "nodeId": 732060113,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 178532898,
+              "text": "唉，也只能等等看了，你们今天有空吗？能不能再帮我给它们浇点水？",
+              "nextNodeIds": [
+                732060114
+              ]
+            },
+            {
+              "nodeId": 732060114,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 145641978,
+              "text": "我刚给苗圃松土，忙活了好半天，实在没力气跑回去打水了。",
+              "nextNodeIds": [
+                732060115
+              ]
+            },
+            {
+              "nodeId": 732060115,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 2718764394,
+              "text": "我明白了。",
+              "nextNodeIds": [
+                732060116
+              ]
+            },
+            {
+              "nodeId": 732060116,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 287130226,
+              "text": "谢谢你们了。",
+              "nextNodeIds": []
+            },
+            {
+              "nodeId": 732060112,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 3033616890,
+              "text": "继续浇水试试。",
+              "nextNodeIds": [
+                732060113
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7320601,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+          "LNHLPKELCAL": [
+            "4233"
+          ],
+          "NOCCOBOFKHP": 3,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+        }
+      }
+    },
+    {
+      "subQuestId": 7320602,
+      "order": 5,
+      "stepDescription": "给花种浇水",
+      "stepDescTextMapHash": 703044180,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            133308427,
+            427067
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_GADGET_STATE_CHANGE",
+          "PPFLKMOMKAI": "201"
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+        "LNHLPKELCAL": [
+          "Q7320901_Player",
+          "25"
+        ],
+        "NOCCOBOFKHP": 3,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+      },
+      "isHidden": false,
+      "talkIds": [
+        7320605
+      ],
+      "talks": [
+        {
+          "talkId": 7320605,
+          "talkConfig": {
+            "checkActionAfter": false,
+            "crowdLOD0List": [],
+            "decoratorID": 0,
+            "disableTalkReview": false,
+            "dontBlockDaily": false,
+            "enableCameraDisplacement": false,
+            "extraLoadMarkId": [],
+            "finishExec": [
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              }
+            ],
+            "forceNpcNotDestroy": false,
+            "heroRuleId": 0,
+            "ignoreDragonTalkRule": false,
+            "isEnableNoBlackInter": false,
+            "linkBehaviorGrpId": 0,
+            "loadType": "TALK_NORMAL_QUEST",
+            "lockGameTime": false,
+            "lowPriority": true,
+            "newTalkFinishTime": false,
+            "onlyQuestNpc": false,
+            "participantId": [],
+            "prePerformCfg": "",
+            "questIdleTalk": false,
+            "randomTalkPos": 0,
+            "randomTalkPriorityList": [],
+            "removeDuplicatedRandomTalk": false,
+            "stayFreeStyle": false,
+            "talkMarkHideList": [],
+            "talkMarkType": "TALK_MARK_NONE",
+            "activeMode": "PLAY_MODE_HOST",
+            "beginCond": [
+              {
+                "param": [
+                  "7320602",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "7320605",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "7320606",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              }
+            ],
+            "beginCondComb": "LOGIC_OR",
+            "beginWay": "TALK_BEGIN_MANUAL",
+            "heroTalk": "TALK_HERO_MAIN",
+            "id": 7320605,
+            "initDialog": 732060501,
+            "nextRandomTalks": [],
+            "nextTalks": [],
+            "npcId": [
+              4233
+            ],
+            "performCfg": "",
+            "priority": 4,
+            "questId": 73206,
+            "showRandomTalkCount": 0
+          },
+          "dialogs": [
+            {
+              "nodeId": 732060501,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 1458351026,
+              "text": "难道我真的是在种石头吗？",
+              "nextNodeIds": []
+            }
+          ]
+        }
+      ],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              133308427,
+              427067
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_GADGET_STATE_CHANGE",
+            "PPFLKMOMKAI": "201"
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+          "LNHLPKELCAL": [
+            "Q7320901_Player",
+            "25"
+          ],
+          "NOCCOBOFKHP": 3,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+        }
+      }
+    },
+    {
+      "subQuestId": 7320603,
+      "order": 6,
+      "stepDescription": "和阿凡聊聊",
+      "stepDescTextMapHash": 4137661644,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7320603,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+        "LNHLPKELCAL": [
+          "4233"
+        ],
+        "NOCCOBOFKHP": 3,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+      },
+      "isHidden": false,
+      "talkIds": [
+        7320603
+      ],
+      "talks": [
+        {
+          "talkId": 7320603,
+          "talkConfig": {
+            "checkActionAfter": false,
+            "crowdLOD0List": [],
+            "decoratorID": 0,
+            "disableTalkReview": false,
+            "dontBlockDaily": false,
+            "enableCameraDisplacement": false,
+            "extraLoadMarkId": [],
+            "finishExec": [
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              }
+            ],
+            "forceNpcNotDestroy": false,
+            "heroRuleId": 0,
+            "ignoreDragonTalkRule": false,
+            "isEnableNoBlackInter": false,
+            "linkBehaviorGrpId": 0,
+            "loadType": "TALK_NORMAL_QUEST",
+            "lockGameTime": false,
+            "lowPriority": true,
+            "newTalkFinishTime": false,
+            "onlyQuestNpc": false,
+            "participantId": [],
+            "prePerformCfg": "",
+            "questIdleTalk": false,
+            "randomTalkPos": 0,
+            "randomTalkPriorityList": [],
+            "removeDuplicatedRandomTalk": false,
+            "stayFreeStyle": false,
+            "talkMarkHideList": [],
+            "talkMarkType": "TALK_MARK_NONE",
+            "activeMode": "PLAY_MODE_HOST",
+            "beginCond": [
+              {
+                "param": [
+                  "7320603",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              }
+            ],
+            "beginCondComb": "LOGIC_NONE",
+            "beginWay": "TALK_BEGIN_MANUAL",
+            "heroTalk": "TALK_HERO_MAIN",
+            "id": 7320603,
+            "initDialog": 732060301,
+            "nextRandomTalks": [],
+            "nextTalks": [],
+            "npcId": [
+              4233
+            ],
+            "performCfg": "QuestDialogue/WQ/Sumeru_73206/Q7320603",
+            "priority": 4,
+            "questId": 73206,
+            "showRandomTalkCount": 0
+          },
+          "dialogs": [
+            {
+              "nodeId": 732060301,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 2986166418,
+              "text": "水还是要浇，肥还是要施，有没有用…",
+              "nextNodeIds": [
+                732060302
+              ]
+            },
+            {
+              "nodeId": 732060302,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 829842322,
+              "text": "我也不知道了，唉。",
+              "nextNodeIds": [
+                732060303
+              ]
+            },
+            {
+              "nodeId": 732060303,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 2249936802,
+              "text": "我糊里糊涂活到今天，终于下定决心要做一件事，结果还是做不成。",
+              "nextNodeIds": [
+                732060304
+              ]
+            },
+            {
+              "nodeId": 732060304,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 1366557650,
+              "text": "鬼老头，辜负了你的嘱托，对不起。",
+              "nextNodeIds": [
+                732060305
+              ]
+            },
+            {
+              "nodeId": 732060305,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 3647258162,
+              "text": "阿凡爷爷…",
+              "nextNodeIds": [
+                732060306
+              ]
+            },
+            {
+              "nodeId": 732060306,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 978075866,
+              "text": "两个小娃娃，你们去忙吧。",
+              "nextNodeIds": []
+            }
+          ]
+        }
+      ],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7320603,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+          "LNHLPKELCAL": [
+            "4233"
+          ],
+          "NOCCOBOFKHP": 3,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+        }
+      }
+    },
+    {
+      "subQuestId": 7320607,
+      "order": 9,
+      "stepDescription": "(test)73206与阿凡闲聊$HIDDEN",
+      "stepDescTextMapHash": 1817705908,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7320606,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+        "LNHLPKELCAL": [
+          "4233"
+        ],
+        "NOCCOBOFKHP": 3,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7320606,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+          "LNHLPKELCAL": [
+            "4233"
+          ],
+          "NOCCOBOFKHP": 3,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+        }
+      }
+    },
+    {
+      "subQuestId": 7320604,
+      "order": 10,
+      "stepDescription": "(test)向赛芭寻求帮助$HIDDEN",
+      "stepDescTextMapHash": 2860755892,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7320604,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+        "LNHLPKELCAL": [
+          "4232"
+        ],
+        "NOCCOBOFKHP": 3,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7320604,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+          "LNHLPKELCAL": [
+            "4232"
+          ],
+          "NOCCOBOFKHP": 3,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+        }
+      }
+    },
+    {
+      "subQuestId": 7320605,
+      "order": 11,
+      "stepDescription": "（test）给花种浇水",
+      "stepDescTextMapHash": 1762409332,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            133308427,
+            427023
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_GADGET_STATE_CHANGE",
+          "PPFLKMOMKAI": "0"
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+        "LNHLPKELCAL": [
+          "Q7320901_Player",
+          "10"
+        ],
+        "NOCCOBOFKHP": 3,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+      },
+      "isHidden": false,
+      "talkIds": [
+        7320605
+      ],
+      "talks": [
+        {
+          "talkId": 7320605,
+          "talkConfig": {
+            "checkActionAfter": false,
+            "crowdLOD0List": [],
+            "decoratorID": 0,
+            "disableTalkReview": false,
+            "dontBlockDaily": false,
+            "enableCameraDisplacement": false,
+            "extraLoadMarkId": [],
+            "finishExec": [
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              }
+            ],
+            "forceNpcNotDestroy": false,
+            "heroRuleId": 0,
+            "ignoreDragonTalkRule": false,
+            "isEnableNoBlackInter": false,
+            "linkBehaviorGrpId": 0,
+            "loadType": "TALK_NORMAL_QUEST",
+            "lockGameTime": false,
+            "lowPriority": true,
+            "newTalkFinishTime": false,
+            "onlyQuestNpc": false,
+            "participantId": [],
+            "prePerformCfg": "",
+            "questIdleTalk": false,
+            "randomTalkPos": 0,
+            "randomTalkPriorityList": [],
+            "removeDuplicatedRandomTalk": false,
+            "stayFreeStyle": false,
+            "talkMarkHideList": [],
+            "talkMarkType": "TALK_MARK_NONE",
+            "activeMode": "PLAY_MODE_HOST",
+            "beginCond": [
+              {
+                "param": [
+                  "7320602",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "7320605",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "7320606",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              }
+            ],
+            "beginCondComb": "LOGIC_OR",
+            "beginWay": "TALK_BEGIN_MANUAL",
+            "heroTalk": "TALK_HERO_MAIN",
+            "id": 7320605,
+            "initDialog": 732060501,
+            "nextRandomTalks": [],
+            "nextTalks": [],
+            "npcId": [
+              4233
+            ],
+            "performCfg": "",
+            "priority": 4,
+            "questId": 73206,
+            "showRandomTalkCount": 0
+          },
+          "dialogs": [
+            {
+              "nodeId": 732060501,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 1458351026,
+              "text": "难道我真的是在种石头吗？",
+              "nextNodeIds": []
+            }
+          ]
+        }
+      ],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              133308427,
+              427023
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_GADGET_STATE_CHANGE",
+            "PPFLKMOMKAI": "0"
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+          "LNHLPKELCAL": [
+            "Q7320901_Player",
+            "10"
+          ],
+          "NOCCOBOFKHP": 3,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+        }
+      }
+    },
+    {
+      "subQuestId": 7320606,
+      "order": 12,
+      "stepDescription": "（test）给花种浇水",
+      "stepDescTextMapHash": 1798968564,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            133308427,
+            427024
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_GADGET_STATE_CHANGE",
+          "PPFLKMOMKAI": "0"
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+        "LNHLPKELCAL": [
+          "Q7320901_Player",
+          "10"
+        ],
+        "NOCCOBOFKHP": 3,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+      },
+      "isHidden": false,
+      "talkIds": [
+        7320605
+      ],
+      "talks": [
+        {
+          "talkId": 7320605,
+          "talkConfig": {
+            "checkActionAfter": false,
+            "crowdLOD0List": [],
+            "decoratorID": 0,
+            "disableTalkReview": false,
+            "dontBlockDaily": false,
+            "enableCameraDisplacement": false,
+            "extraLoadMarkId": [],
+            "finishExec": [
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              }
+            ],
+            "forceNpcNotDestroy": false,
+            "heroRuleId": 0,
+            "ignoreDragonTalkRule": false,
+            "isEnableNoBlackInter": false,
+            "linkBehaviorGrpId": 0,
+            "loadType": "TALK_NORMAL_QUEST",
+            "lockGameTime": false,
+            "lowPriority": true,
+            "newTalkFinishTime": false,
+            "onlyQuestNpc": false,
+            "participantId": [],
+            "prePerformCfg": "",
+            "questIdleTalk": false,
+            "randomTalkPos": 0,
+            "randomTalkPriorityList": [],
+            "removeDuplicatedRandomTalk": false,
+            "stayFreeStyle": false,
+            "talkMarkHideList": [],
+            "talkMarkType": "TALK_MARK_NONE",
+            "activeMode": "PLAY_MODE_HOST",
+            "beginCond": [
+              {
+                "param": [
+                  "7320602",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "7320605",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "7320606",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              }
+            ],
+            "beginCondComb": "LOGIC_OR",
+            "beginWay": "TALK_BEGIN_MANUAL",
+            "heroTalk": "TALK_HERO_MAIN",
+            "id": 7320605,
+            "initDialog": 732060501,
+            "nextRandomTalks": [],
+            "nextTalks": [],
+            "npcId": [
+              4233
+            ],
+            "performCfg": "",
+            "priority": 4,
+            "questId": 73206,
+            "showRandomTalkCount": 0
+          },
+          "dialogs": [
+            {
+              "nodeId": 732060501,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 4233,
+              "speakerName": "阿凡",
+              "textMapHash": 1458351026,
+              "text": "难道我真的是在种石头吗？",
+              "nextNodeIds": []
+            }
+          ]
+        }
+      ],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              133308427,
+              427024
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_GADGET_STATE_CHANGE",
+            "PPFLKMOMKAI": "0"
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+          "LNHLPKELCAL": [
+            "Q7320901_Player",
+            "10"
+          ],
+          "NOCCOBOFKHP": 3,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+        }
+      }
+    },
+    {
+      "subQuestId": 7320610,
+      "order": 13,
+      "stepDescription": "（test）$HIDDEN",
+      "stepDescTextMapHash": 504368108,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7320602,
+            3
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+        "LNHLPKELCAL": [],
+        "NOCCOBOFKHP": 0,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7320602,
+              3
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+          "LNHLPKELCAL": [],
+          "NOCCOBOFKHP": 0,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+        }
+      }
+    }
+  ],
+  "unmappedTalks": [],
+  "questNarration": [],
+  "talkIds": [
+    7320505,
+    7320601,
+    7320603,
+    7320605
+  ],
+  "speakerCounts": [
+    {
+      "roleType": "TALK_ROLE_NPC",
+      "speakerId": 4233,
+      "speakerName": "阿凡",
+      "count": 40
+    },
+    {
+      "roleType": "TALK_ROLE_PLAYER",
+      "speakerId": null,
+      "speakerName": "旅行者",
+      "count": 8
+    },
+    {
+      "roleType": "TALK_ROLE_NPC",
+      "speakerId": 1005,
+      "speakerName": "派蒙",
+      "count": 3
+    }
+  ],
+  "raw": {
+    "ANDJNFLIDIJ": "PLAY_MODE_ALL",
+    "BEGCMMJKCFC": [
+      173206
+    ],
+    "BHCBFLFOGJN": 0,
+    "BPEIDGPCLGA": false,
+    "CBBBCAKOFGO": 2168627198,
+    "CHECNJEMEFE": {},
+    "CJPLOBIFHLG": "MAINQUEST_TAG_NONE",
+    "CMDGLJAOFOJ": [],
+    "EPJHBBICPCA": false,
+    "FBEFCEJCBIK": {},
+    "FFOAGHNMJKJ": 0,
+    "FNFALGGACGA": "",
+    "FOKHPBAGMPB": "",
+    "GBFMDJLKJBF": [],
+    "GMENNHMBBOH": [],
+    "HCJHEADFCAO": 0,
+    "IBEGAHMEABP": [
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Sumeru_73205/Q7320505",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 5,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_AND",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_MANUAL",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 732050501,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7320505,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          4233
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_NONE",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": true,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "7320503",
+              "3"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          },
+          {
+            "_param": [
+              "7320601",
+              "1"
+            ],
+            "_type": "QUEST_COND_QUEST_NOT_RECEIVE"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 7305421767347133746,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 73206,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      },
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Sumeru_73206/Q7320601",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 5,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_NONE",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_MANUAL",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 732060101,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7320601,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          4233
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_COMMON",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": false,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "7320601",
+              "2"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 15584371890596417919,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 73206,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      },
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Sumeru_73206/Q7320603",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 4,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_NONE",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_MANUAL",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 732060301,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7320603,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          4233
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_NONE",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": false,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "7320603",
+              "2"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": true,
+        "NPGONNBAOOI": 14111506693696639411,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 73206,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      },
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 4,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_OR",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_MANUAL",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 732060501,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7320605,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          4233
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_NONE",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": false,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "7320602",
+              "2"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          },
+          {
+            "_param": [
+              "7320605",
+              "2"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          },
+          {
+            "_param": [
+              "7320606",
+              "2"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": true,
+        "NPGONNBAOOI": 12624669106942513536,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 73206,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      }
+    ],
+    "IBNCKLKHAKG": 0,
+    "IEGCPJALJOA": 0,
+    "IELNANBAMLH": "QUEST_PAUSE_RES_DESTROY_NONE",
+    "ILHDNJDDEOP": 73206,
+    "ILICEMABDDI": [],
+    "JAPLGJLDPHJ": [],
+    "JDCIPCDDDPK": 0,
+    "JDEFCNEDMLL": 0,
+    "KCONOGOIGIH": 0,
+    "LEFIHLHODBM": [],
+    "LMCFKPMJGEO": false,
+    "MEJIMPLKPHN": 0,
+    "MHHFFHCLDKI": false,
+    "MMOEEOFGHHG": 423979719,
+    "NJGLJLODPBN": false,
+    "NKAKCKAJCLD": 73193,
+    "NOCNCPAGOPC": "Actor/Quest/WQ73206",
+    "OPIDGNOCOHD": "QUEST_SHOW",
+    "PAINLIBBLDK": "WQ",
+    "PEDANLIDLGE": 0,
+    "PEFIFLDHPEE": false,
+    "PIGICJKACHG": [],
+    "PPJLLGCPCOL": {
+      "HDHKBHOLGIM": {}
+    }
+  },
+  "meta": {
+    "questType": "WQ",
+    "series": 73193,
+    "mainQuestTag": "MAINQUEST_TAG_NONE",
+    "showType": "QUEST_SHOW",
+    "repeatable": false,
+    "recommendLevel": 0,
+    "chapterId": 0,
+    "chapterTitle": "",
+    "chapterNum": "",
+    "needPlayerLevel": null,
+    "cityId": null,
+    "cityName": "",
+    "unlockDesc": "",
+    "preMainQuestIds": [
+      73205
+    ],
+    "nextMainQuestIds": [
+      73207
+    ],
+    "rewardIdList": [
+      173206
+    ],
+    "rewards": [
+      {
+        "rewardId": 173206,
+        "items": [
+          {
+            "itemId": 102,
+            "name": "冒险阅历",
+            "count": 200,
+            "itemType": "ITEM_VIRTUAL",
+            "rank": 13
+          },
+          {
+            "itemId": 201,
+            "name": "原石",
+            "count": 30,
+            "itemType": "ITEM_VIRTUAL",
+            "rank": 30
+          },
+          {
+            "itemId": 202,
+            "name": "摩拉",
+            "count": 20000,
+            "itemType": "ITEM_VIRTUAL",
+            "rank": 10
+          },
+          {
+            "itemId": 104003,
+            "name": "大英雄的经验",
+            "count": 2,
+            "itemType": "ITEM_MATERIAL",
+            "rank": 100
+          },
+          {
+            "itemId": 108396,
+            "name": "美味的烤肉卷",
+            "count": 2,
+            "itemType": "ITEM_MATERIAL",
+            "rank": 531005
+          },
+          {
+            "itemId": 108420,
+            "name": "美味的米圆塔",
+            "count": 2,
+            "itemType": "ITEM_MATERIAL",
+            "rank": 221006
+          },
+          {
+            "itemId": 100096,
+            "name": "秃秃豆",
+            "count": 2,
+            "itemType": "ITEM_MATERIAL",
+            "rank": 321
+          }
+        ],
+        "playerExp": 0,
+        "hcoin": 0,
+        "scoin": 0
+      }
+    ]
+  }
+}

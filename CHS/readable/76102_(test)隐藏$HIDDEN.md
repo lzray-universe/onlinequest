@@ -1,0 +1,65 @@
+# 76102 (test)隐藏$HIDDEN
+
+(test)隐藏$HIDDEN
+
+
+---
+## 任务信息
+
+- **任务类型**：WQ
+- **后接主任务**：76000, 76001, 76002, 76004, 76005, 76007, 76008, 76009, 76010, 76012, 76014, 76016, 76017, 76018, 76019, 76020, 76021, 76022, 76023, 76024, 76026, 76027, 76028, 76032, 76037, 76041, 76074, 76078, 76079, 76080, 76081, 76091, 76092, 76093, 76098, 76104, 76105, 76106, 76107, 76109, 76113, 76145
+
+---
+## 剧情流程（按子任务顺序）
+
+
+### 步骤 1：子任务 7610201
+
+(test)隐藏$HIDDEN
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7610201,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_FINISH_PLOT",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "7610201",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_SET_QUEST_GLOBAL_VAR"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+（此步骤无对话）

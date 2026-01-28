@@ -1,0 +1,257 @@
+# 76073 (test)隐藏$HIDDEN
+
+(test)隐藏$HIDDEN
+
+
+---
+## 任务信息
+
+- **任务类型**：WQ
+- **前置主任务**：76003
+
+---
+## 剧情流程（按子任务顺序）
+
+
+### 步骤 1：子任务 7607301
+
+(test)隐藏$HIDDEN
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        1,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_GAME_TIME_TICK",
+      "PPFLKMOMKAI": "0,24"
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7607301
+
+**起点节点 `760730101`**
+
+
+**涅朵奇卡：**从这里看不到新基捷城呢…
+
+**分支 1：**
+
+  **旅行者：**关于新基捷城…
+
+  **涅朵奇卡：**在那儿生活的时候时常觉得憋闷，可一旦离开了又有些想念…这还是我第一次离家这么远呢。
+
+  **涅朵奇卡：**我原本以为其他地方也和新基捷城一样生活着很多妖精呢，就算是至冬堡也有不少妖精嘛。
+
+  **涅朵奇卡：**结果到了挪德卡莱，根本一个也没见到，派蒙也说自己不是。应该不是因为他们不喜欢这里的气候吧…
+
+  **涅朵奇卡：**毕竟这里都没有暴风雪，在野外也不会因为没有炉子就寸步难行。
+
+  **涅朵奇卡：**对了，我在挪德卡莱看到有人在喝新基捷城产的酒呢，虽说知道酒业和矿业一样出名，不过在这里看到还是有点…感动？
+
+**分支 2：**
+
+  **旅行者：**关于拉斯科尔尼科夫…
+
+  **涅朵奇卡：**他啊，他以前就是最优秀，也是父亲最喜欢的学生。现在在愚人众也算出人头地了？
+
+  **涅朵奇卡：**我曾经也很羡慕他呢，想要成为他那样的人…但不管我怎么努力，也不可能超过他吧。
+
+  **涅朵奇卡：**唔，不过之前一直以为他根本没把我放在眼里，但这次却能感觉到他的敌意，到底是为什么呢？
+
+  **涅朵奇卡：**还有，他说我「傲慢」…完全没有头绪。
+
+**分支 3：**
+
+  **旅行者：**下次见！
+
+  **涅朵奇卡：**嗯！在那之前，祝你和我都好运！
+
+
+
+
+### 步骤 2：子任务 7607302
+
+(test)隐藏$HIDDEN
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7600340,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7600340
+
+**起点节点 `760034015`**
+
+
+**涅朵奇卡：**卡嘉的手艺真不错…还是晚些再回新基捷城好了。
+
+**分支 1：**
+
+  **旅行者：**涅朵奇卡，又见面了。
+
+  **涅朵奇卡：**哎呀，是要现在来分个胜负吗？你、你这算是偷袭！一定要比的话，不如约好时间…
+
+  **涅朵奇卡：**我还想悠闲地玩上一段时间呢，之前都没有好好逛过那夏镇。不如比试的事，就以后再说吧？
+
+**分支 2：**
+
+  **旅行者：**关于新基捷城…
+
+  **涅朵奇卡：**在那儿生活的时候时常觉得憋闷，可一旦离开了又有些想念…这还是我第一次离家这么远呢。
+
+  **涅朵奇卡：**我原本以为其他地方也和新基捷城一样生活着很多妖精呢，就算是至冬堡也有不少妖精嘛。
+
+  **涅朵奇卡：**结果到了挪德卡莱，根本一个也没见到，派蒙也说自己不是。应该不是因为他们不喜欢这里的气候吧…
+
+  **涅朵奇卡：**毕竟这里都没有暴风雪，在野外也不会因为没有炉子就寸步难行。
+
+  **涅朵奇卡：**对了，我在挪德卡莱看到有人在喝新基捷城产的酒呢，虽说知道酒业和矿业一样出名，不过在这里看到还是有点…感动？
+
+**分支 3：**
+
+  **旅行者：**下次见！
+
+  **涅朵奇卡：**嗯！在那之前，祝你和我都好运！
+
+
+
+
+### 步骤 3：子任务 7607303
+
+(test)隐藏$HIDDEN
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        1,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_GAME_TIME_TICK",
+      "PPFLKMOMKAI": "0,24"
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7600340
+
+**起点节点 `760034015`**
+
+
+**涅朵奇卡：**卡嘉的手艺真不错…还是晚些再回新基捷城好了。
+
+**分支 1：**
+
+  **旅行者：**涅朵奇卡，又见面了。
+
+  **涅朵奇卡：**哎呀，是要现在来分个胜负吗？你、你这算是偷袭！一定要比的话，不如约好时间…
+
+  **涅朵奇卡：**我还想悠闲地玩上一段时间呢，之前都没有好好逛过那夏镇。不如比试的事，就以后再说吧？
+
+**分支 2：**
+
+  **旅行者：**关于新基捷城…
+
+  **涅朵奇卡：**在那儿生活的时候时常觉得憋闷，可一旦离开了又有些想念…这还是我第一次离家这么远呢。
+
+  **涅朵奇卡：**我原本以为其他地方也和新基捷城一样生活着很多妖精呢，就算是至冬堡也有不少妖精嘛。
+
+  **涅朵奇卡：**结果到了挪德卡莱，根本一个也没见到，派蒙也说自己不是。应该不是因为他们不喜欢这里的气候吧…
+
+  **涅朵奇卡：**毕竟这里都没有暴风雪，在野外也不会因为没有炉子就寸步难行。
+
+  **涅朵奇卡：**对了，我在挪德卡莱看到有人在喝新基捷城产的酒呢，虽说知道酒业和矿业一样出名，不过在这里看到还是有点…感动？
+
+**分支 3：**
+
+  **旅行者：**下次见！
+
+  **涅朵奇卡：**嗯！在那之前，祝你和我都好运！
+
+

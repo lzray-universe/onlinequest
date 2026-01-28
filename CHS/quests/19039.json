@@ -1,0 +1,163 @@
+{
+  "mainQuestId": 19039,
+  "title": "失落之物",
+  "description": "先前不见踪影的侦探少年，原来一直在海祇岛调查着一桩奇异的案件，他声称这片岛屿缺少了重要的东西，会是什么呢？",
+  "titleTextMapHash": 0,
+  "descTextMapHash": 0,
+  "mainQuestExcel": {
+    "mainQuestId": 19039,
+    "titleTextMapHash": 2257231943,
+    "title": "失落之物",
+    "descTextMapHash": 1912771326,
+    "description": "先前不见踪影的侦探少年，原来一直在海祇岛调查着一桩奇异的案件，他声称这片岛屿缺少了重要的东西，会是什么呢？",
+    "chapterId": 105901,
+    "mainQuestTag": "MAINQUEST_TAG_NONE",
+    "activeMode": "PLAY_MODE_SINGLE",
+    "activityId": 0,
+    "luaPath": "Actor/Quest/LQ19039",
+    "mainQuestRaw": {
+      "activeMode": "PLAY_MODE_SINGLE",
+      "activityId": 0,
+      "chapterId": 105901,
+      "descTextMapHash": 1912771326,
+      "EPJHBBICPCA": false,
+      "FFOAGHNMJKJ": 0,
+      "FNFALGGACGA": "",
+      "FOKHPBAGMPB": "",
+      "GMENNHMBBOH": [
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        }
+      ],
+      "id": 19039,
+      "IELNANBAMLH": "QUEST_PAUSE_RES_DESTROY_NONE",
+      "IGHALKGCHAB": 1702585073,
+      "LEFIHLHODBM": [],
+      "luaPath": "Actor/Quest/LQ19039",
+      "mainQuestTag": "MAINQUEST_TAG_NONE",
+      "MHHFFHCLDKI": false,
+      "PEDANLIDLGE": 0,
+      "PEFIFLDHPEE": true,
+      "recommendLevel": 0,
+      "repeatable": false,
+      "resId": 3014,
+      "rewardIdList": [],
+      "series": 105901,
+      "showRedPoint": false,
+      "showType": "QUEST_SHOW",
+      "specialShowCondIdList": [],
+      "specialShowQuestId": 0,
+      "specialShowRewardId": [],
+      "suggestTrackMainQuestList": [
+        19055
+      ],
+      "suggestTrackOutOfOrder": true,
+      "taskID": 0,
+      "titleTextMapHash": 2257231943,
+      "type": "LQ",
+      "unlockDescTextMapHash": 1720973470
+    }
+  },
+  "flow": [],
+  "unmappedTalks": [],
+  "questNarration": [],
+  "talkIds": [
+    1903907,
+    1903908
+  ],
+  "speakerCounts": [
+    {
+      "roleType": "TALK_ROLE_NPC",
+      "speakerId": 511,
+      "speakerName": "鹿野院平藏",
+      "count": 2
+    },
+    {
+      "roleType": "TALK_ROLE_PLAYER",
+      "speakerId": null,
+      "speakerName": "旅行者",
+      "count": 1
+    },
+    {
+      "roleType": "TALK_ROLE_NPC",
+      "speakerId": 1039,
+      "speakerName": "五郎",
+      "count": 1
+    }
+  ],
+  "raw": {
+    "AFKIEPNELHE": "AQ",
+    "CJIMGIIOCHJ": false,
+    "DLPKBOPINEE": 0,
+    "EOCJNJCDPAF": "QUEST_PAUSE_RES_DESTROY_NONE",
+    "FHHLHNKGECE": 0,
+    "FJIMHCGKKPJ": 0,
+    "FKDCKPFLAHB": false,
+    "HIOOPLCFLCC": 0,
+    "HMPOGBDMBOK": 0,
+    "IBHGDPBJGLH": "PLAY_MODE_SINGLE",
+    "KGHHACOAPJP": [],
+    "KODMELAGPIC": false,
+    "LINDNOIHPNE": 0,
+    "LJEKICGKHPL": "QUEST_SHOW",
+    "LJJHBBBJFPA": false,
+    "MGALIKNKOGK": false,
+    "MLBBDICEBKK": 0,
+    "MOODLJIPKAM": 0,
+    "NKEKKINIKEB": 0,
+    "NOFJBHGFIGF": false,
+    "NPDEGFGJDGD": 0,
+    "ODOCBCAGDJA": 0,
+    "OPJHEHDNJDO": "MAINQUEST_TAG_NONE",
+    "PEHAMNDEEDE": 0,
+    "PLHMMOGHHJH": 0
+  },
+  "meta": {
+    "questType": "LQ",
+    "series": 105901,
+    "mainQuestTag": "MAINQUEST_TAG_NONE",
+    "showType": "QUEST_SHOW",
+    "repeatable": false,
+    "recommendLevel": 0,
+    "chapterId": 105901,
+    "chapterTitle": "风暴捕物帐",
+    "chapterNum": "邀约事件·鹿野院平藏 第一幕",
+    "needPlayerLevel": 26,
+    "cityId": 0,
+    "cityName": "",
+    "unlockDesc": "",
+    "preMainQuestIds": [],
+    "nextMainQuestIds": [],
+    "rewardIdList": [],
+    "rewards": []
+  }
+}

@@ -1,0 +1,275 @@
+# 72142 荒神社言灵玩法（test）$HIDDEN
+
+
+---
+## 任务信息
+
+- **任务类型**：WQ
+- **前置主任务**：72107
+
+---
+## 剧情流程（按子任务顺序）
+
+
+### 步骤 1：子任务 7214201
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7214201,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_FINISH_PLOT",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+（此步骤无对话）
+
+
+### 步骤 2：子任务 7214205
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        1,
+        3
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_QUEST_VAR_EQUAL",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+（此步骤无对话）
+
+
+### 步骤 3：子任务 7214202
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7214202,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        0,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_ANY_TALK",
+      "PPFLKMOMKAI": "214214,214215,7214216,7214217,7214218,7214220,7214221,7214222,7214223,7214224,7214225,7214226,7214227,7214228,7214229,7214230,7214231,7214232,7214233,7214234,7214235,7214236,7214237,7214238,7214239,7214240"
+    }
+  ],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "1",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_INC_QUEST_VAR"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+（此步骤无对话）
+
+
+### 步骤 4：子任务 7214203
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7214206,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        0,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_ANY_TALK",
+      "PPFLKMOMKAI": "214214,214215,7214216,7214217,7214218,7214220,7214221,7214222,7214223,7214224,7214225,7214226,7214227,7214228,7214229,7214230,7214231,7214232,7214233,7214234,7214235,7214236,7214237,7214238,7214239,7214240"
+    }
+  ],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "1",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_INC_QUEST_VAR"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+（此步骤无对话）
+
+
+### 步骤 5：子任务 7214204
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7214219,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        0,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_ANY_TALK",
+      "PPFLKMOMKAI": "214214,214215,7214216,7214217,7214218,7214220,7214221,7214222,7214223,7214224,7214225,7214226,7214227,7214228,7214229,7214230,7214231,7214232,7214233,7214234,7214235,7214236,7214237,7214238,7214239,7214240"
+    }
+  ],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "1",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_INC_QUEST_VAR"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+（此步骤无对话）

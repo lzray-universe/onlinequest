@@ -1,0 +1,3013 @@
+{
+  "mainQuestId": 71074,
+  "title": "藏石者言",
+  "description": "帮助沐宁完成辉山厅的悬赏，找到分布在层岩巨渊上层的「老石」…",
+  "titleTextMapHash": 26500279,
+  "descTextMapHash": 1859576030,
+  "mainQuestExcel": {
+    "mainQuestId": 71074,
+    "titleTextMapHash": 26500279,
+    "title": "藏石者言",
+    "descTextMapHash": 1859576030,
+    "description": "帮助沐宁完成辉山厅的悬赏，找到分布在层岩巨渊上层的「老石」…",
+    "chapterId": 0,
+    "mainQuestTag": "MAINQUEST_TAG_NONE",
+    "activeMode": "PLAY_MODE_ALL",
+    "activityId": 0,
+    "luaPath": "Actor/Quest/WQ71074",
+    "mainQuestRaw": {
+      "activeMode": "PLAY_MODE_ALL",
+      "activityId": 0,
+      "chapterId": 0,
+      "descTextMapHash": 1859576030,
+      "EPJHBBICPCA": false,
+      "FFOAGHNMJKJ": 0,
+      "FNFALGGACGA": "",
+      "FOKHPBAGMPB": "",
+      "GMENNHMBBOH": [
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        }
+      ],
+      "id": 71074,
+      "IELNANBAMLH": "QUEST_PAUSE_RES_DESTROY_NONE",
+      "IGHALKGCHAB": 980331489,
+      "LEFIHLHODBM": [],
+      "luaPath": "Actor/Quest/WQ71074",
+      "mainQuestTag": "MAINQUEST_TAG_NONE",
+      "MHHFFHCLDKI": false,
+      "PEDANLIDLGE": 0,
+      "PEFIFLDHPEE": false,
+      "recommendLevel": 0,
+      "repeatable": false,
+      "resId": 0,
+      "rewardIdList": [
+        171074
+      ],
+      "series": 0,
+      "showRedPoint": false,
+      "showType": "QUEST_SHOW",
+      "specialShowCondIdList": [],
+      "specialShowQuestId": 0,
+      "specialShowRewardId": [],
+      "suggestTrackMainQuestList": [],
+      "suggestTrackOutOfOrder": false,
+      "taskID": 0,
+      "titleTextMapHash": 26500279,
+      "type": "WQ",
+      "unlockDescTextMapHash": 3213764870
+    }
+  },
+  "flow": [
+    {
+      "subQuestId": 7107401,
+      "order": 1,
+      "stepDescription": "test隐藏-跟沐宁对话$HIDDEN",
+      "stepDescTextMapHash": 1740602204,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7107401,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+          "PPFLKMOMKAI": ""
+        },
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7107402,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+        "LNHLPKELCAL": [],
+        "NOCCOBOFKHP": 0,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+      },
+      "isHidden": false,
+      "talkIds": [
+        7107401,
+        7107402
+      ],
+      "talks": [
+        {
+          "talkId": 7107401,
+          "talkConfig": {
+            "checkActionAfter": false,
+            "crowdLOD0List": [],
+            "decoratorID": 0,
+            "disableTalkReview": false,
+            "dontBlockDaily": false,
+            "enableCameraDisplacement": false,
+            "extraLoadMarkId": [],
+            "finishExec": [
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              }
+            ],
+            "forceNpcNotDestroy": false,
+            "heroRuleId": 0,
+            "ignoreDragonTalkRule": false,
+            "isEnableNoBlackInter": false,
+            "linkBehaviorGrpId": 0,
+            "loadType": "TALK_NORMAL_QUEST",
+            "lockGameTime": false,
+            "lowPriority": false,
+            "newTalkFinishTime": false,
+            "onlyQuestNpc": false,
+            "participantId": [],
+            "prePerformCfg": "",
+            "questIdleTalk": false,
+            "randomTalkPos": 0,
+            "randomTalkPriorityList": [],
+            "removeDuplicatedRandomTalk": false,
+            "stayFreeStyle": false,
+            "talkMarkHideList": [],
+            "talkMarkType": "TALK_MARK_COMMON",
+            "activeMode": "PLAY_MODE_HOST",
+            "beginCond": [
+              {
+                "param": [
+                  "7107401",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "100831",
+                  "1",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_PACK_HAVE_ITEM"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              }
+            ],
+            "beginCondComb": "LOGIC_AND",
+            "beginWay": "TALK_BEGIN_MANUAL",
+            "heroTalk": "TALK_HERO_MAIN",
+            "id": 7107401,
+            "initDialog": 710740101,
+            "nextRandomTalks": [],
+            "nextTalks": [],
+            "npcId": [
+              2061
+            ],
+            "performCfg": "QuestDialogue/WQ/Liyue_71074/Q7107401",
+            "priority": 6,
+            "questId": 71074,
+            "showRandomTalkCount": 0
+          },
+          "dialogs": [
+            {
+              "nodeId": 710740101,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 2239547666,
+              "text": "「老石」…唉，「老石」，我在层岩巨渊这么多年都没怎么见到过，辉山厅的那些大人们啊…",
+              "nextNodeIds": [
+                710740102
+              ]
+            },
+            {
+              "nodeId": 710740102,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 815288482,
+              "text": "哪天他们要是自己来做做这种找东西的事，就知道有多辛苦了。",
+              "nextNodeIds": [
+                710740103
+              ]
+            },
+            {
+              "nodeId": 710740103,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 1598177938,
+              "text": "沐宁——！",
+              "nextNodeIds": [
+                710740104
+              ]
+            },
+            {
+              "nodeId": 710740104,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 1141595834,
+              "text": "哦，是你们啊，你们怎么还在层岩巨渊上层逗留…",
+              "nextNodeIds": [
+                710740105
+              ]
+            },
+            {
+              "nodeId": 710740105,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 3190202922,
+              "text": "啊…当然，我没有不欢迎你们的意思！我的意思是…呃，你们没有别的要紧事去做吗？",
+              "nextNodeIds": [
+                710740106
+              ]
+            },
+            {
+              "nodeId": 710740106,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 2385086530,
+              "text": "什么呀，我们只是看你在头疼所以才过来跟你打招呼的…",
+              "nextNodeIds": [
+                710740107,
+                710740108
+              ]
+            },
+            {
+              "nodeId": 710740107,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 1352404458,
+              "text": "发生什么了？",
+              "nextNodeIds": [
+                710740109
+              ]
+            },
+            {
+              "nodeId": 710740109,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 501471210,
+              "text": "唉…你知道「老石」吗？",
+              "nextNodeIds": [
+                710740110
+              ]
+            },
+            {
+              "nodeId": 710740110,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 2718255154,
+              "text": "那是一种即使在矿区也很少出现的稀有矿物，在层岩巨渊这么多年我也只看过两三枚，那可真是常人想象不到的瑰丽宝石啊。",
+              "nextNodeIds": [
+                710740111
+              ]
+            },
+            {
+              "nodeId": 710740111,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 2699361474,
+              "text": "据说品相最好的那种，看上去内含毫光，颜色犹如日暮之时海天之分那一线那般…",
+              "nextNodeIds": [
+                710740112
+              ]
+            },
+            {
+              "nodeId": 710740112,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 2767250786,
+              "text": "你说的是这种？",
+              "nextNodeIds": [
+                710740113
+              ]
+            },
+            {
+              "nodeId": 710740113,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 1621197114,
+              "text": "…啊，这，你居然有，而且这是我见过的品相最完美的老石了。",
+              "nextNodeIds": [
+                710740114
+              ]
+            },
+            {
+              "nodeId": 710740114,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 2996480938,
+              "text": "#哎，我说{NICKNAME}啊，不如你把这枚「老石」卖给我吧！",
+              "nextNodeIds": [
+                710740115,
+                710740116
+              ]
+            },
+            {
+              "nodeId": 710740115,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 3060907010,
+              "text": "绝无可能。",
+              "nextNodeIds": [
+                710740117
+              ]
+            },
+            {
+              "nodeId": 710740117,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 3914835578,
+              "text": "对，那可是一个朋友送给我们的…",
+              "nextNodeIds": [
+                710740118
+              ]
+            },
+            {
+              "nodeId": 710740118,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 679472770,
+              "text": "而且，你哪来的钱够买「老石」呀。",
+              "nextNodeIds": [
+                710740119
+              ]
+            },
+            {
+              "nodeId": 710740119,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 3397986746,
+              "text": "毕竟是公家的事，钱倒不是问题…",
+              "nextNodeIds": [
+                710740120
+              ]
+            },
+            {
+              "nodeId": 710740120,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 1044680938,
+              "text": "公家的事？",
+              "nextNodeIds": [
+                710740121
+              ]
+            },
+            {
+              "nodeId": 710740121,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 179248514,
+              "text": "是啊，是辉山厅的大人们，最近不知道为何，突然对「老石」产生了兴趣，要求在层岩巨渊多找几枚给他们进行一些研究。",
+              "nextNodeIds": [
+                710740122
+              ]
+            },
+            {
+              "nodeId": 710740122,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 640021002,
+              "text": "可是我每天应付…咳咳，处理公务就已经够忙的了…",
+              "nextNodeIds": [
+                710740123
+              ]
+            },
+            {
+              "nodeId": 710740123,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 774351370,
+              "text": "#不如这样吧，{NICKNAME}，如果你找到了「老石」，就带来给我，我把辉山厅的赏金给你。",
+              "nextNodeIds": [
+                710740124
+              ]
+            },
+            {
+              "nodeId": 710740124,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 3820693322,
+              "text": "不过品相不用像你手上那么好的，只要是「老石」就行。",
+              "nextNodeIds": [
+                710740125
+              ]
+            },
+            {
+              "nodeId": 710740125,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 1955185354,
+              "text": "辉山厅的赏金！",
+              "nextNodeIds": [
+                710740126
+              ]
+            },
+            {
+              "nodeId": 710740126,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 3061434890,
+              "text": "按理说我应该亲自走一趟，但是层岩巨渊最近涉及到的事实在太多了，我有点分身乏术，只能拜托你们了。",
+              "nextNodeIds": [
+                710740127
+              ]
+            },
+            {
+              "nodeId": 710740127,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 2136609434,
+              "text": "唉，也不知道辉山厅的大人们要多少，不如就先拿三枚过来吧。",
+              "nextNodeIds": [
+                710740128
+              ]
+            },
+            {
+              "nodeId": 710740128,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 3548161154,
+              "text": "好了好了，我们知道啦。",
+              "nextNodeIds": []
+            },
+            {
+              "nodeId": 710740116,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 2954518754,
+              "text": "想也别想。",
+              "nextNodeIds": [
+                710740117
+              ]
+            },
+            {
+              "nodeId": 710740108,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 348842666,
+              "text": "有什么为难的事吗？",
+              "nextNodeIds": [
+                710740109
+              ]
+            }
+          ]
+        },
+        {
+          "talkId": 7107402,
+          "talkConfig": {
+            "checkActionAfter": false,
+            "crowdLOD0List": [],
+            "decoratorID": 0,
+            "disableTalkReview": false,
+            "dontBlockDaily": false,
+            "enableCameraDisplacement": false,
+            "extraLoadMarkId": [],
+            "finishExec": [
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              }
+            ],
+            "forceNpcNotDestroy": false,
+            "heroRuleId": 0,
+            "ignoreDragonTalkRule": false,
+            "isEnableNoBlackInter": false,
+            "linkBehaviorGrpId": 0,
+            "loadType": "TALK_NORMAL_QUEST",
+            "lockGameTime": false,
+            "lowPriority": false,
+            "newTalkFinishTime": false,
+            "onlyQuestNpc": false,
+            "participantId": [],
+            "prePerformCfg": "",
+            "questIdleTalk": false,
+            "randomTalkPos": 0,
+            "randomTalkPriorityList": [],
+            "removeDuplicatedRandomTalk": false,
+            "stayFreeStyle": false,
+            "talkMarkHideList": [],
+            "talkMarkType": "TALK_MARK_COMMON",
+            "activeMode": "PLAY_MODE_HOST",
+            "beginCond": [
+              {
+                "param": [
+                  "7107401",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "100831",
+                  "1",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_ITEM_NUM_LESS_THAN"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              }
+            ],
+            "beginCondComb": "LOGIC_AND",
+            "beginWay": "TALK_BEGIN_MANUAL",
+            "heroTalk": "TALK_HERO_MAIN",
+            "id": 7107402,
+            "initDialog": 710740201,
+            "nextRandomTalks": [],
+            "nextTalks": [],
+            "npcId": [
+              2061
+            ],
+            "performCfg": "QuestDialogue/WQ/Liyue_71074/Q7107402",
+            "priority": 6,
+            "questId": 71074,
+            "showRandomTalkCount": 0
+          },
+          "dialogs": [
+            {
+              "nodeId": 710740201,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 788746978,
+              "text": "「老石」…唉，「老石」，我在层岩巨渊这么多年都没怎么见到过，辉山厅的那些大人们啊…",
+              "nextNodeIds": [
+                710740202
+              ]
+            },
+            {
+              "nodeId": 710740202,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 70331538,
+              "text": "哪天他们要是自己来做做这种找东西的事，就知道有多辛苦了。",
+              "nextNodeIds": [
+                710740203
+              ]
+            },
+            {
+              "nodeId": 710740203,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 3450507434,
+              "text": "沐宁——！",
+              "nextNodeIds": [
+                710740204
+              ]
+            },
+            {
+              "nodeId": 710740204,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 727988498,
+              "text": "哦，是你们啊，你们怎么还在层岩巨渊上层逗留…",
+              "nextNodeIds": [
+                710740205
+              ]
+            },
+            {
+              "nodeId": 710740205,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 3817059314,
+              "text": "啊…当然，我没有不欢迎你们的意思！我的意思是…呃，你们没有别的要紧事去做吗？",
+              "nextNodeIds": [
+                710740206
+              ]
+            },
+            {
+              "nodeId": 710740206,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 1886880090,
+              "text": "什么呀，我们只是看你在头疼所以才过来跟你打招呼的…",
+              "nextNodeIds": [
+                710740207,
+                710740208
+              ]
+            },
+            {
+              "nodeId": 710740207,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 3317968986,
+              "text": "发生什么了？",
+              "nextNodeIds": [
+                710740209
+              ]
+            },
+            {
+              "nodeId": 710740209,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 1653313226,
+              "text": "唉…你知道「老石」吗？",
+              "nextNodeIds": [
+                710740210
+              ]
+            },
+            {
+              "nodeId": 710740210,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 137078810,
+              "text": "那是一种即使在矿区也很少出现的稀有矿物，在层岩巨渊这么多年我也只看过两三枚，那可真是常人想象不到的瑰丽宝石啊。",
+              "nextNodeIds": [
+                710740211
+              ]
+            },
+            {
+              "nodeId": 710740211,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 2395340938,
+              "text": "据说品相最好的那种，看上去内含毫光，颜色犹如日暮之时海天之分那一线那般幽邃美丽。",
+              "nextNodeIds": [
+                710740212
+              ]
+            },
+            {
+              "nodeId": 710740212,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 1992959114,
+              "text": "所以就是说，你现在需要一些「颜色很漂亮的石头」。",
+              "nextNodeIds": [
+                710740213
+              ]
+            },
+            {
+              "nodeId": 710740213,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 160789074,
+              "text": "也不是所有颜色很漂亮的石头都行，是「那种」颜色很漂亮的石头。",
+              "nextNodeIds": [
+                710740214
+              ]
+            },
+            {
+              "nodeId": 710740214,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 395961890,
+              "text": "#不过…对了，不如{NICKNAME}你帮我留意一下，有没有跟我描述很像的那种石头。",
+              "nextNodeIds": [
+                710740215
+              ]
+            },
+            {
+              "nodeId": 710740215,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 1151415706,
+              "text": "如果带过来的话，我愿意出钱买下。",
+              "nextNodeIds": [
+                710740216
+              ]
+            },
+            {
+              "nodeId": 710740216,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 3926004258,
+              "text": "咦，你哪来的钱够买那种「老石」呀。",
+              "nextNodeIds": [
+                710740217
+              ]
+            },
+            {
+              "nodeId": 710740217,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 2333974354,
+              "text": "毕竟是公家的事，钱倒不是问题…",
+              "nextNodeIds": [
+                710740218
+              ]
+            },
+            {
+              "nodeId": 710740218,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 1875632210,
+              "text": "公家的事？",
+              "nextNodeIds": [
+                710740219
+              ]
+            },
+            {
+              "nodeId": 710740219,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 1788069898,
+              "text": "是啊，是辉山厅的大人们，最近不知道为何，突然对「老石」产生了兴趣，要求在层岩巨渊多找几枚给他们进行一些研究。",
+              "nextNodeIds": [
+                710740220
+              ]
+            },
+            {
+              "nodeId": 710740220,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 972070738,
+              "text": "可是我每天应付…咳咳，处理公务就已经够忙的了…",
+              "nextNodeIds": [
+                710740221
+              ]
+            },
+            {
+              "nodeId": 710740221,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 3160939858,
+              "text": "#不如这样吧，{NICKNAME}，如果你找到了「老石」，就带来给我，我把辉山厅的赏金给你。",
+              "nextNodeIds": [
+                710740222
+              ]
+            },
+            {
+              "nodeId": 710740222,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 1777412298,
+              "text": "辉山厅的赏金！",
+              "nextNodeIds": [
+                710740223
+              ]
+            },
+            {
+              "nodeId": 710740223,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 3969625162,
+              "text": "按理说我应该亲自走一趟，但是层岩巨渊最近涉及到的事实在太多了，我有点分身乏术，只能拜托你们了。",
+              "nextNodeIds": [
+                710740224
+              ]
+            },
+            {
+              "nodeId": 710740224,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 7785114,
+              "text": "唉，也不知道辉山厅的大人们要多少，不如就先拿三枚过来吧。",
+              "nextNodeIds": [
+                710740225
+              ]
+            },
+            {
+              "nodeId": 710740225,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 497085890,
+              "text": "好了好了，我们知道啦。",
+              "nextNodeIds": []
+            },
+            {
+              "nodeId": 710740208,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 2381383058,
+              "text": "有什么为难的事吗？",
+              "nextNodeIds": [
+                710740209
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7107401,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+            "PPFLKMOMKAI": ""
+          },
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7107402,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+          "LNHLPKELCAL": [],
+          "NOCCOBOFKHP": 0,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+        }
+      }
+    },
+    {
+      "subQuestId": 7107402,
+      "order": 2,
+      "stepDescription": "采集三枚老石交给沐宁",
+      "stepDescTextMapHash": 1748791604,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7107401,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_FINISH_ITEM_GIVING",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+        "LNHLPKELCAL": [
+          "2061"
+        ],
+        "NOCCOBOFKHP": 3,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7107401,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_FINISH_ITEM_GIVING",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+          "LNHLPKELCAL": [
+            "2061"
+          ],
+          "NOCCOBOFKHP": 3,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+        }
+      }
+    },
+    {
+      "subQuestId": 7107403,
+      "order": 3,
+      "stepDescription": "与沐宁对话",
+      "stepDescTextMapHash": 1247977932,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7107404,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+        "LNHLPKELCAL": [
+          "2061"
+        ],
+        "NOCCOBOFKHP": 3,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+      },
+      "isHidden": false,
+      "talkIds": [
+        7107404
+      ],
+      "talks": [
+        {
+          "talkId": 7107404,
+          "talkConfig": {
+            "checkActionAfter": false,
+            "crowdLOD0List": [],
+            "decoratorID": 0,
+            "disableTalkReview": false,
+            "dontBlockDaily": false,
+            "enableCameraDisplacement": false,
+            "extraLoadMarkId": [],
+            "finishExec": [
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              }
+            ],
+            "forceNpcNotDestroy": false,
+            "heroRuleId": 0,
+            "ignoreDragonTalkRule": false,
+            "isEnableNoBlackInter": false,
+            "linkBehaviorGrpId": 0,
+            "loadType": "TALK_NORMAL_QUEST",
+            "lockGameTime": false,
+            "lowPriority": false,
+            "newTalkFinishTime": false,
+            "onlyQuestNpc": false,
+            "participantId": [],
+            "prePerformCfg": "",
+            "questIdleTalk": false,
+            "randomTalkPos": 0,
+            "randomTalkPriorityList": [],
+            "removeDuplicatedRandomTalk": false,
+            "stayFreeStyle": false,
+            "talkMarkHideList": [],
+            "talkMarkType": "TALK_MARK_NONE",
+            "activeMode": "PLAY_MODE_HOST",
+            "beginCond": [
+              {
+                "param": [
+                  "7107403",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              }
+            ],
+            "beginCondComb": "LOGIC_NONE",
+            "beginWay": "TALK_BEGIN_AUTO",
+            "heroTalk": "TALK_HERO_MAIN",
+            "id": 7107404,
+            "initDialog": 710740401,
+            "nextRandomTalks": [],
+            "nextTalks": [],
+            "npcId": [
+              2061,
+              1005
+            ],
+            "performCfg": "QuestDialogue/WQ/Liyue_71074/Q7107404",
+            "priority": 6,
+            "questId": 71074,
+            "showRandomTalkCount": 0
+          },
+          "dialogs": [
+            {
+              "nodeId": 710740401,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 3347208794,
+              "text": "果然是「老石」，还真是多谢你们了。",
+              "nextNodeIds": [
+                710740402
+              ]
+            },
+            {
+              "nodeId": 710740402,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 1702411362,
+              "text": "委托你们真是正确的决定。若是委托冒险家协会，他们都不可能那么快找到。",
+              "nextNodeIds": [
+                710740403
+              ]
+            },
+            {
+              "nodeId": 710740403,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 2362927618,
+              "text": "那可不一定，说不定冒险家协会他们会…",
+              "nextNodeIds": [
+                710740404
+              ]
+            },
+            {
+              "nodeId": 710740404,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 4063514674,
+              "text": "直接把委托转给我们。",
+              "nextNodeIds": [
+                710740405
+              ]
+            },
+            {
+              "nodeId": 710740405,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 299902274,
+              "text": "确实。",
+              "nextNodeIds": [
+                710740406
+              ]
+            },
+            {
+              "nodeId": 710740406,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 1757641906,
+              "text": "冒险家…嗯…以前我还挺羡慕那些冒险家的，每天不是上高就是下低，好像没有他们不敢去的地方似的。",
+              "nextNodeIds": [
+                710740407
+              ]
+            },
+            {
+              "nodeId": 710740407,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 1856868330,
+              "text": "像我被派来层岩巨渊干了这么多年了，连层岩巨渊之顶…啊就是丹砂崖，都没上去过一次呢。",
+              "nextNodeIds": [
+                710740408
+              ]
+            },
+            {
+              "nodeId": 710740408,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 2226016762,
+              "text": "你居然没去过？",
+              "nextNodeIds": [
+                710740409
+              ]
+            },
+            {
+              "nodeId": 710740409,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 71806098,
+              "text": "丹砂崖，怎么说呢，就像是那种「很知名，但是本地人却不怎么去的旅游景点」一类的东西。",
+              "nextNodeIds": [
+                710740410
+              ]
+            },
+            {
+              "nodeId": 710740410,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 2470035986,
+              "text": "可能是想着，反正离得那么近，之后有空的时候总有时间去看一眼…结果一次都没去成。",
+              "nextNodeIds": [
+                710740411
+              ]
+            },
+            {
+              "nodeId": 710740411,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 858839178,
+              "text": "不如现在就去吧！",
+              "nextNodeIds": [
+                710740412
+              ]
+            },
+            {
+              "nodeId": 710740412,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 148132746,
+              "text": "想到就做也是很重要的。",
+              "nextNodeIds": [
+                710740413
+              ]
+            },
+            {
+              "nodeId": 710740413,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 2179134946,
+              "text": "免了免了，现在还不是我「有空」的时候。",
+              "nextNodeIds": [
+                710740414
+              ]
+            },
+            {
+              "nodeId": 710740414,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 1324170178,
+              "text": "更何况，那种到处跑腿的事，交给那群冒险家做就好。",
+              "nextNodeIds": [
+                710740415
+              ]
+            },
+            {
+              "nodeId": 710740415,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 590334186,
+              "text": "他们去的都是些很危险的地方，我要是去了，半路受伤的话…那可就不好啦。",
+              "nextNodeIds": [
+                710740416
+              ]
+            },
+            {
+              "nodeId": 710740416,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 2056145834,
+              "text": "确实，受伤是件很严重的事。",
+              "nextNodeIds": [
+                710740417
+              ]
+            },
+            {
+              "nodeId": 710740417,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 1307747898,
+              "text": "若是我受伤的话，下面勘探队就会没人监督，矿工安全检查也没人负责了。",
+              "nextNodeIds": [
+                710740418
+              ]
+            },
+            {
+              "nodeId": 710740418,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 2984696242,
+              "text": "但凡有什么意外，就要出很严重的大问题了。",
+              "nextNodeIds": [
+                710740419
+              ]
+            },
+            {
+              "nodeId": 710740419,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 74016786,
+              "text": "原来问题严重在这里吗…我还以为沐宁只是怕受伤而已呢！",
+              "nextNodeIds": [
+                710740420
+              ]
+            },
+            {
+              "nodeId": 710740420,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 4225826738,
+              "text": "像是层岩巨渊周围那些高得要命的悬崖呀、深得不行的深涧呀…还有岩王爷留下的古战场呀，那种危险的地方…",
+              "nextNodeIds": [
+                710740421
+              ]
+            },
+            {
+              "nodeId": 710740421,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 1547624466,
+              "text": "我可是一点都不想靠近。",
+              "nextNodeIds": [
+                710740422
+              ]
+            },
+            {
+              "nodeId": 710740422,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 4228634322,
+              "text": "好了，这就是你们找这三枚老石的酬金。辉山厅对老石的需求还是挺大的，要是你发现了老石，这里按照三枚一批来收…",
+              "nextNodeIds": [
+                710740423
+              ]
+            },
+            {
+              "nodeId": 710740423,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 2061,
+              "speakerName": "沐宁",
+              "textMapHash": 1265444426,
+              "text": "当然了，也会给到相应的报酬，找到老石记得来找我。",
+              "nextNodeIds": [
+                710740424
+              ]
+            },
+            {
+              "nodeId": 710740424,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 3688466978,
+              "text": "好！",
+              "nextNodeIds": []
+            }
+          ]
+        }
+      ],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7107404,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+          "LNHLPKELCAL": [
+            "2061"
+          ],
+          "NOCCOBOFKHP": 3,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+        }
+      }
+    },
+    {
+      "subQuestId": 7107404,
+      "order": 4,
+      "stepDescription": "采集三枚老石交给沐宁",
+      "stepDescTextMapHash": 651711796,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7107402,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_FINISH_ITEM_GIVING",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+        "LNHLPKELCAL": [
+          "2061"
+        ],
+        "NOCCOBOFKHP": 3,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7107402,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_FINISH_ITEM_GIVING",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+          "LNHLPKELCAL": [
+            "2061"
+          ],
+          "NOCCOBOFKHP": 3,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+        }
+      }
+    },
+    {
+      "subQuestId": 7107405,
+      "order": 5,
+      "stepDescription": "与沐宁对话",
+      "stepDescTextMapHash": 2979413364,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7107406,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+        "LNHLPKELCAL": [
+          "2061"
+        ],
+        "NOCCOBOFKHP": 3,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7107406,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+          "LNHLPKELCAL": [
+            "2061"
+          ],
+          "NOCCOBOFKHP": 3,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+        }
+      }
+    },
+    {
+      "subQuestId": 7107406,
+      "order": 6,
+      "stepDescription": "采集三枚老石交给沐宁",
+      "stepDescTextMapHash": 2433383788,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7107403,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_FINISH_ITEM_GIVING",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+        "LNHLPKELCAL": [
+          "2061"
+        ],
+        "NOCCOBOFKHP": 3,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7107403,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_FINISH_ITEM_GIVING",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+          "LNHLPKELCAL": [
+            "2061"
+          ],
+          "NOCCOBOFKHP": 3,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+        }
+      }
+    },
+    {
+      "subQuestId": 7107407,
+      "order": 7,
+      "stepDescription": "与沐宁对话",
+      "stepDescTextMapHash": 3696666948,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7107408,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+        "LNHLPKELCAL": [
+          "2061"
+        ],
+        "NOCCOBOFKHP": 3,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7107408,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+          "LNHLPKELCAL": [
+            "2061"
+          ],
+          "NOCCOBOFKHP": 3,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+        }
+      }
+    },
+    {
+      "subQuestId": 7107408,
+      "order": 8,
+      "stepDescription": "test隐藏-获得钟离线老石检测$HIDDEN",
+      "stepDescTextMapHash": 2307562548,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 1,
+          "LNHLPKELCAL": [
+            100831,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_OBTAIN_ITEM",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+        "LNHLPKELCAL": [],
+        "NOCCOBOFKHP": 0,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 1,
+            "LNHLPKELCAL": [
+              100831,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_OBTAIN_ITEM",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+          "LNHLPKELCAL": [],
+          "NOCCOBOFKHP": 0,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+        }
+      }
+    }
+  ],
+  "unmappedTalks": [
+    {
+      "talkId": 7107403,
+      "talkConfig": {
+        "checkActionAfter": false,
+        "crowdLOD0List": [],
+        "decoratorID": 0,
+        "disableTalkReview": false,
+        "dontBlockDaily": false,
+        "enableCameraDisplacement": false,
+        "extraLoadMarkId": [],
+        "finishExec": [
+          {
+            "param": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "TALK_EXEC_NONE"
+          },
+          {
+            "param": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "TALK_EXEC_NONE"
+          },
+          {
+            "param": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "TALK_EXEC_NONE"
+          },
+          {
+            "param": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "TALK_EXEC_NONE"
+          },
+          {
+            "param": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "TALK_EXEC_NONE"
+          }
+        ],
+        "forceNpcNotDestroy": false,
+        "heroRuleId": 0,
+        "ignoreDragonTalkRule": false,
+        "isEnableNoBlackInter": false,
+        "linkBehaviorGrpId": 0,
+        "loadType": "TALK_NORMAL_QUEST",
+        "lockGameTime": false,
+        "lowPriority": true,
+        "newTalkFinishTime": false,
+        "onlyQuestNpc": false,
+        "participantId": [],
+        "prePerformCfg": "",
+        "questIdleTalk": false,
+        "randomTalkPos": 0,
+        "randomTalkPriorityList": [],
+        "removeDuplicatedRandomTalk": false,
+        "stayFreeStyle": false,
+        "talkMarkHideList": [],
+        "talkMarkType": "TALK_MARK_NONE",
+        "activeMode": "PLAY_MODE_HOST",
+        "beginCond": [
+          {
+            "param": [
+              "7107401",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "QUEST_COND_ITEM_GIVING_ACTIVED"
+          },
+          {
+            "param": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "QUEST_COND_NONE"
+          },
+          {
+            "param": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "QUEST_COND_NONE"
+          },
+          {
+            "param": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "QUEST_COND_NONE"
+          },
+          {
+            "param": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "QUEST_COND_NONE"
+          },
+          {
+            "param": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "QUEST_COND_NONE"
+          },
+          {
+            "param": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "QUEST_COND_NONE"
+          },
+          {
+            "param": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "QUEST_COND_NONE"
+          },
+          {
+            "param": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "QUEST_COND_NONE"
+          },
+          {
+            "param": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "type": "QUEST_COND_NONE"
+          }
+        ],
+        "beginCondComb": "LOGIC_NONE",
+        "beginWay": "TALK_BEGIN_MANUAL",
+        "heroTalk": "TALK_HERO_MAIN",
+        "id": 7107403,
+        "initDialog": 710740301,
+        "nextRandomTalks": [],
+        "nextTalks": [],
+        "npcId": [
+          2061
+        ],
+        "performCfg": "QuestDialogue/WQ/Liyue_71074/Q7107403",
+        "priority": 6,
+        "questId": 71074,
+        "showRandomTalkCount": 0
+      },
+      "dialogs": [
+        {
+          "nodeId": 710740301,
+          "roleType": "TALK_ROLE_NPC",
+          "speakerId": 2061,
+          "speakerName": "沐宁",
+          "textMapHash": 3887037674,
+          "text": "请问两位找到「老石」了吗？",
+          "nextNodeIds": [
+            710740302
+          ]
+        },
+        {
+          "nodeId": 710740302,
+          "roleType": "TALK_ROLE_PLAYER",
+          "speakerId": null,
+          "speakerName": "旅行者",
+          "textMapHash": 4256641210,
+          "text": "在这里了。",
+          "nextNodeIds": []
+        }
+      ]
+    }
+  ],
+  "questNarration": [],
+  "talkIds": [
+    7107401,
+    7107402,
+    7107403,
+    7107404,
+    7107405,
+    7107406,
+    7107407,
+    7107408
+  ],
+  "speakerCounts": [
+    {
+      "roleType": "TALK_ROLE_NPC",
+      "speakerId": 2061,
+      "speakerName": "沐宁",
+      "count": 86
+    },
+    {
+      "roleType": "TALK_ROLE_NPC",
+      "speakerId": 1005,
+      "speakerName": "派蒙",
+      "count": 32
+    },
+    {
+      "roleType": "TALK_ROLE_PLAYER",
+      "speakerId": null,
+      "speakerName": "旅行者",
+      "count": 21
+    }
+  ],
+  "raw": {
+    "ANDJNFLIDIJ": "PLAY_MODE_ALL",
+    "BEGCMMJKCFC": [
+      171074
+    ],
+    "BHCBFLFOGJN": 0,
+    "BPEIDGPCLGA": false,
+    "CBBBCAKOFGO": 1859576030,
+    "CHECNJEMEFE": {},
+    "CJPLOBIFHLG": "MAINQUEST_TAG_NONE",
+    "CMDGLJAOFOJ": [],
+    "EPJHBBICPCA": false,
+    "FBEFCEJCBIK": {},
+    "FFOAGHNMJKJ": 0,
+    "FNFALGGACGA": "",
+    "FOKHPBAGMPB": "",
+    "GBFMDJLKJBF": [],
+    "GMENNHMBBOH": [],
+    "HCJHEADFCAO": 0,
+    "IBEGAHMEABP": [
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Liyue_71074/Q7107401",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 6,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_AND",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_MANUAL",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 710740101,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7107401,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          2061
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_COMMON",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": false,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "7107401",
+              "2"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          },
+          {
+            "_param": [
+              "100831",
+              "1"
+            ],
+            "_type": "QUEST_COND_PACK_HAVE_ITEM"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 17956262669306874231,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 71074,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      },
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Liyue_71074/Q7107402",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 6,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_AND",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_MANUAL",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 710740201,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7107402,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          2061
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_COMMON",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": false,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "7107401",
+              "2"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          },
+          {
+            "_param": [
+              "100831",
+              "1"
+            ],
+            "_type": "QUEST_COND_ITEM_NUM_LESS_THAN"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 16234310554218010593,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 71074,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      },
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Liyue_71074/Q7107403",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 6,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_NONE",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_MANUAL",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 710740301,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7107403,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          2061
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_NONE",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": false,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "7107401"
+            ],
+            "_type": "QUEST_COND_ITEM_GIVING_ACTIVED"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": true,
+        "NPGONNBAOOI": 4479874393172574170,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 71074,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      },
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Liyue_71074/Q7107404",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 6,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_NONE",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_AUTO",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 710740401,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7107404,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          2061,
+          1005
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_NONE",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": false,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "7107403",
+              "2"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 15014086099357375509,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 71074,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      },
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Liyue_71074/Q7107405",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 6,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_NONE",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_MANUAL",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 710740501,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7107405,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          2061
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_NONE",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": false,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "99902",
+              "3"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 4370147993212086142,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 71074,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      },
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Liyue_71074/Q7107406",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 6,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_NONE",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_AUTO",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 710740601,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7107406,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          2061,
+          1005
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_NONE",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": false,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "99902",
+              "3"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 11350592991156125925,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 71074,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      },
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Liyue_71074/Q7107407",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 6,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_NONE",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_MANUAL",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 710740701,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7107407,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          2061
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_NONE",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": false,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "99902",
+              "3"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 4627588499959875345,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 71074,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      },
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Liyue_71074/Q7107408",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 6,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_NONE",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_AUTO",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 710740801,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7107408,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          2061,
+          1005
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_NONE",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": false,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "99902",
+              "3"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 4763169128451901058,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 71074,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      }
+    ],
+    "IBNCKLKHAKG": 0,
+    "IEGCPJALJOA": 0,
+    "IELNANBAMLH": "QUEST_PAUSE_RES_DESTROY_NONE",
+    "ILHDNJDDEOP": 71074,
+    "ILICEMABDDI": [],
+    "JAPLGJLDPHJ": [],
+    "JDCIPCDDDPK": 0,
+    "JDEFCNEDMLL": 0,
+    "KCONOGOIGIH": 0,
+    "LEFIHLHODBM": [],
+    "LMCFKPMJGEO": false,
+    "MEJIMPLKPHN": 0,
+    "MHHFFHCLDKI": false,
+    "MMOEEOFGHHG": 26500279,
+    "NJGLJLODPBN": false,
+    "NKAKCKAJCLD": 0,
+    "NOCNCPAGOPC": "Actor/Quest/WQ71074",
+    "OPIDGNOCOHD": "QUEST_SHOW",
+    "PAINLIBBLDK": "WQ",
+    "PEDANLIDLGE": 0,
+    "PEFIFLDHPEE": false,
+    "PIGICJKACHG": [],
+    "PPJLLGCPCOL": {
+      "HDHKBHOLGIM": {}
+    }
+  },
+  "meta": {
+    "questType": "WQ",
+    "series": 0,
+    "mainQuestTag": "MAINQUEST_TAG_NONE",
+    "showType": "QUEST_SHOW",
+    "repeatable": false,
+    "recommendLevel": 0,
+    "chapterId": 0,
+    "chapterTitle": "",
+    "chapterNum": "",
+    "needPlayerLevel": null,
+    "cityId": null,
+    "cityName": "",
+    "unlockDesc": "",
+    "preMainQuestIds": [
+      71044
+    ],
+    "nextMainQuestIds": [
+      71096
+    ],
+    "rewardIdList": [
+      171074
+    ],
+    "rewards": [
+      {
+        "rewardId": 171074,
+        "items": [
+          {
+            "itemId": 102,
+            "name": "冒险阅历",
+            "count": 150,
+            "itemType": "ITEM_VIRTUAL",
+            "rank": 13
+          },
+          {
+            "itemId": 201,
+            "name": "原石",
+            "count": 20,
+            "itemType": "ITEM_VIRTUAL",
+            "rank": 30
+          },
+          {
+            "itemId": 202,
+            "name": "摩拉",
+            "count": 30000,
+            "itemType": "ITEM_VIRTUAL",
+            "rank": 10
+          }
+        ],
+        "playerExp": 0,
+        "hcoin": 0,
+        "scoin": 0
+      }
+    ]
+  }
+}

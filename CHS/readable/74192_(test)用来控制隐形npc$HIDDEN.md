@@ -1,0 +1,479 @@
+# 74192 (test)用来控制隐形npc$HIDDEN
+
+
+---
+## 任务信息
+
+- **任务类型**：WQ
+- **前置主任务**：74141, 74142
+
+---
+## 剧情流程（按子任务顺序）
+
+
+### 步骤 1：子任务 7419206
+
+用于处理隐藏派蒙$HIDDEN
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7414110,
+        3
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+（此步骤无对话）
+
+
+### 步骤 2：子任务 7419207
+
+用于处理隐藏派蒙$HIDDEN
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7414215,
+        3
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+（此步骤无对话）
+
+
+### 步骤 3：子任务 7419201
+
+(test)常驻对话$HIDDEN
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7414209,
+        3
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+      "PPFLKMOMKAI": ""
+    },
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7419201,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7419201
+
+**起点节点 `741920101`**
+
+
+**夏诺蒂拉：**我看见：王座上的火焰已经熄灭，烧却的灰烬重新变成了树。
+
+**夏诺蒂拉：**花朵随着你的脚步绽放，你能给必然颓败的未来带来变化。
+
+**旅行者：**夏诺蒂拉？
+
+**夏诺蒂拉：**#咦，原来是{NICKNAME}{M#哥哥}{F#姐姐}！你怎么会在这里？
+
+**夏诺蒂拉：**啊，对了！金色的蝴蝶已经回来了，要赶紧去看看才行！再见啦！
+
+
+
+
+### 步骤 4：子任务 7419202
+
+(test)常驻对话$HIDDEN
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7414209,
+        3
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+      "PPFLKMOMKAI": ""
+    },
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7419202,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7419202
+
+**起点节点 `741920201`**
+
+
+**夏诺蒂拉：**呜呜…
+
+**旅行者：**夏诺蒂拉…
+
+**夏诺蒂拉：**#咦？{M#哥哥}{F#姐姐}…你是谁？我还以为，这里除了我谁也进不来。
+
+**夏诺蒂拉：**你为什么知道我的名字？
+
+**分支 1：**
+
+  **旅行者：**我们认识。
+
+  **夏诺蒂拉：**骗人！你肯定也和那些怪物一样…
+
+**分支 2：**
+
+  **旅行者：**（撒谎）是瑟琳让我来找你的。
+
+  **夏诺蒂拉：**是喔…老是让她这么担心，我真是个坏孩子…
+
+  **旅行者：**#我是{NICKNAME}，你还记得吗？
+
+  **夏诺蒂拉：**#{NICKNAME}{M#哥哥}{F#姐姐}，我想起来了…虽然是个一口能吞下世界的大怪兽，但是很善良。
+
+  **分支 1：**
+
+    **旅行者：**真没礼貌。
+
+    **夏诺蒂拉：**对不起喔。
+
+    **旅行者：**发生什么事情了？
+
+    **夏诺蒂拉：**我看到，有几个人，他们慢慢融化、变成了怪物…
+
+    **夏诺蒂拉：**啊啊，好可怕…
+
+  **分支 2：**
+
+    **旅行者：**谢谢。
+
+    ↩ 合流到节点 `741920214`
+
+
+
+
+### 步骤 5：子任务 7419203
+
+(test)常驻对话$HIDDEN
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7414209,
+        3
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+      "PPFLKMOMKAI": ""
+    },
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7419203,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7419203
+
+**起点节点 `741920301`**
+
+
+**夏诺蒂拉：**既然记忆能被制作成书，那么反过来，书本中的内容，应该也能被直接写入记忆…
+
+**旅行者：**夏诺蒂拉？
+
+**夏诺蒂拉：**#啊，是奇奇怪怪的{NICKNAME}{M#哥哥}{F#姐姐}。怎么了，找我有什么事吗？
+
+**旅行者：**你在说什么…
+
+**夏诺蒂拉：**嗯，不管怎么想，将「记忆」制作成书本都是相当不可思议的事…
+
+**夏诺蒂拉：**制作这本书的人，一定将「记{RUBY#[D]妄想}忆」中的心情当作最为珍贵的事物，才能做出这样的书吧。
+
+**夏诺蒂拉：**不过这样子的书，确实很难懂…
+
+**夏诺蒂拉：**…而且，会对「读者」产生什么样的影响，也不知道。这可真是…
+
+
+
+
+### 步骤 6：子任务 7419204
+
+(test)常驻对话$HIDDEN
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7414209,
+        3
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+      "PPFLKMOMKAI": ""
+    },
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7419204,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7419204
+
+**起点节点 `741920401`**
+
+
+**夏诺蒂拉：**……
+
+**旅行者：**夏诺蒂拉？
+
+**夏诺蒂拉：**咦？你终于回来了！呜呜，我好担心，要是你一直回不来要怎么办…
+
+**夏诺蒂拉：**你进去以后，我一直在外面等，等了好久、好久。我去找别的美露莘帮忙，但大家都不知道怎么办…
+
+**旅行者：**（…看来我也在这里待得够久了。）
+
+**旅行者：**我该走了。
+
+**夏诺蒂拉：**#咦？{NICKNAME}，你要去哪…
+
+**旅行者：**别担心。我找到夏诺蒂拉就回来。
+
+**旅行者：**再稍微等我一下，好吗？
+
+**旅行者：**虽然我知道，对你说这些也没用。
+
+**分支 1：**
+
+  **旅行者：**不过，相信我。
+
+  **夏诺蒂拉：**#{NICKNAME}…
+
+**分支 2：**
+
+  **旅行者：**毋须担心。
+
+  ↩ 合流到节点 `741920413`
+
+
+
+
+### 步骤 7：子任务 7419205
+
+(test)常驻对话$HIDDEN
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7414215,
+        3
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+（此步骤无对话）

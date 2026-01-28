@@ -1,0 +1,488 @@
+{
+  "mainQuestId": 74210,
+  "title": "",
+  "description": "(test)隐藏任务控制4.2npc$HIDDEN",
+  "titleTextMapHash": 0,
+  "descTextMapHash": 3545495494,
+  "mainQuestExcel": {
+    "mainQuestId": 74210,
+    "titleTextMapHash": 1905319167,
+    "title": "",
+    "descTextMapHash": 3545495494,
+    "description": "(test)隐藏任务控制4.2npc$HIDDEN",
+    "chapterId": 0,
+    "mainQuestTag": "MAINQUEST_TAG_NONE",
+    "activeMode": "PLAY_MODE_ALL",
+    "activityId": 0,
+    "luaPath": "Actor/Quest/WQ74210",
+    "mainQuestRaw": {
+      "activeMode": "PLAY_MODE_ALL",
+      "activityId": 0,
+      "chapterId": 0,
+      "descTextMapHash": 3545495494,
+      "EPJHBBICPCA": true,
+      "FFOAGHNMJKJ": 0,
+      "FNFALGGACGA": "",
+      "FOKHPBAGMPB": "",
+      "GMENNHMBBOH": [
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        }
+      ],
+      "id": 74210,
+      "IELNANBAMLH": "QUEST_PAUSE_RES_DESTROY_NONE",
+      "IGHALKGCHAB": 4036714361,
+      "LEFIHLHODBM": [],
+      "luaPath": "Actor/Quest/WQ74210",
+      "mainQuestTag": "MAINQUEST_TAG_NONE",
+      "MHHFFHCLDKI": false,
+      "PEDANLIDLGE": 0,
+      "PEFIFLDHPEE": false,
+      "recommendLevel": 0,
+      "repeatable": false,
+      "resId": 0,
+      "rewardIdList": [],
+      "series": 0,
+      "showRedPoint": false,
+      "showType": "QUEST_HIDDEN",
+      "specialShowCondIdList": [],
+      "specialShowQuestId": 0,
+      "specialShowRewardId": [],
+      "suggestTrackMainQuestList": [],
+      "suggestTrackOutOfOrder": false,
+      "taskID": 0,
+      "titleTextMapHash": 1905319167,
+      "type": "WQ",
+      "unlockDescTextMapHash": 3518122782
+    }
+  },
+  "flow": [
+    {
+      "subQuestId": 7421001,
+      "order": 1,
+      "stepDescription": "",
+      "stepDescTextMapHash": 0,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7421001,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_FINISH_PLOT",
+          "PPFLKMOMKAI": ""
+        },
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7412701,
+            2
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+        "LNHLPKELCAL": [],
+        "NOCCOBOFKHP": 0,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7421001,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_FINISH_PLOT",
+            "PPFLKMOMKAI": ""
+          },
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7412701,
+              2
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+          "LNHLPKELCAL": [],
+          "NOCCOBOFKHP": 0,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+        }
+      }
+    }
+  ],
+  "unmappedTalks": [],
+  "questNarration": [],
+  "talkIds": [
+    7413612,
+    7413613,
+    7413614
+  ],
+  "speakerCounts": [
+    {
+      "roleType": "TALK_ROLE_NPC",
+      "speakerId": 5257,
+      "speakerName": "雷蒙多",
+      "count": 17
+    },
+    {
+      "roleType": "TALK_ROLE_PLAYER",
+      "speakerId": null,
+      "speakerName": "旅行者",
+      "count": 8
+    },
+    {
+      "roleType": "TALK_ROLE_NPC",
+      "speakerId": 5258,
+      "speakerName": "舒瓦瑟尔",
+      "count": 7
+    },
+    {
+      "roleType": "TALK_ROLE_NPC",
+      "speakerId": 5275,
+      "speakerName": "菲希里耶",
+      "count": 5
+    },
+    {
+      "roleType": "TALK_ROLE_NPC",
+      "speakerId": 1005,
+      "speakerName": "派蒙",
+      "count": 3
+    },
+    {
+      "roleType": "TALK_ROLE_NPC",
+      "speakerId": 5273,
+      "speakerName": "肖西韦尔",
+      "count": 3
+    },
+    {
+      "roleType": "TALK_ROLE_NPC",
+      "speakerId": 5274,
+      "speakerName": "勒马克",
+      "count": 1
+    }
+  ],
+  "raw": {
+    "ANDJNFLIDIJ": "PLAY_MODE_ALL",
+    "BEGCMMJKCFC": [],
+    "BHCBFLFOGJN": 0,
+    "BPEIDGPCLGA": false,
+    "CBBBCAKOFGO": 3545495494,
+    "CHECNJEMEFE": {},
+    "CJPLOBIFHLG": "MAINQUEST_TAG_NONE",
+    "CMDGLJAOFOJ": [],
+    "EPJHBBICPCA": true,
+    "FBEFCEJCBIK": {},
+    "FFOAGHNMJKJ": 0,
+    "FNFALGGACGA": "",
+    "FOKHPBAGMPB": "",
+    "GBFMDJLKJBF": [],
+    "GMENNHMBBOH": [],
+    "HCJHEADFCAO": 0,
+    "IBEGAHMEABP": [
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Fontaine_74136/Q7413612",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 3,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_NONE",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_MANUAL",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 741361201,
+        "ILHDCGDKKKA": "TALK_HERO_LOCAL",
+        "ILHDNJDDEOP": 7413612,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          5257,
+          1005
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_NONE",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": true,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "7413611",
+              "3"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 11998375818645190648,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 74210,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      },
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 3,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_NONE",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_MANUAL",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 741361301,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7413613,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          5258
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_NONE",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": true,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "7413611",
+              "3"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 5655667868447184439,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 74210,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      },
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Fontaine_74136/Q7413614",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 3,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_AND",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_MANUAL",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 741361401,
+        "ILHDCGDKKKA": "TALK_HERO_LOCAL",
+        "ILHDNJDDEOP": 7413614,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          5275,
+          5274,
+          5273,
+          1005
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_NONE",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": true,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "7413611",
+              "3"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 12015202879462956753,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 74210,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      }
+    ],
+    "IBNCKLKHAKG": 0,
+    "IEGCPJALJOA": 0,
+    "IELNANBAMLH": "QUEST_PAUSE_RES_DESTROY_NONE",
+    "ILHDNJDDEOP": 74210,
+    "ILICEMABDDI": [
+      689935847450526032
+    ],
+    "JAPLGJLDPHJ": [],
+    "JDCIPCDDDPK": 0,
+    "JDEFCNEDMLL": 0,
+    "KCONOGOIGIH": 0,
+    "LEFIHLHODBM": [],
+    "LMCFKPMJGEO": false,
+    "MEJIMPLKPHN": 0,
+    "MHHFFHCLDKI": false,
+    "MMOEEOFGHHG": 0,
+    "NJGLJLODPBN": false,
+    "NKAKCKAJCLD": 0,
+    "NOCNCPAGOPC": "Actor/Quest/WQ74210",
+    "OPIDGNOCOHD": "QUEST_HIDDEN",
+    "PAINLIBBLDK": "WQ",
+    "PEDANLIDLGE": 0,
+    "PEFIFLDHPEE": false,
+    "PIGICJKACHG": [
+      5737313366765379388
+    ],
+    "PPJLLGCPCOL": {
+      "HDHKBHOLGIM": {}
+    }
+  },
+  "meta": {
+    "questType": "WQ",
+    "series": 0,
+    "mainQuestTag": "MAINQUEST_TAG_NONE",
+    "showType": "QUEST_HIDDEN",
+    "repeatable": false,
+    "recommendLevel": 0,
+    "chapterId": 0,
+    "chapterTitle": "",
+    "chapterNum": "",
+    "needPlayerLevel": null,
+    "cityId": null,
+    "cityName": "",
+    "unlockDesc": "",
+    "preMainQuestIds": [
+      74136
+    ],
+    "nextMainQuestIds": [],
+    "rewardIdList": [],
+    "rewards": []
+  }
+}

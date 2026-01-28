@@ -1,0 +1,13 @@
+{
+  "builtAt": "2026-01-27 03:32:03",
+  "updatedQuests": 3905,
+  "questsWithCutscenes": 252,
+  "questsWithVideoSubtitles": 72,
+  "totalQuestLevelCutsceneEntries": 416,
+  "subtitleFilesCopied": 124,
+  "notes": [
+    "任务奖励/前置/后接/地区/类型来自 AnimeGameData 的 MainQuest/Chapter/City/Reward 配置。",
+    "任务条件来自 BinOutput Quest/<主任务>.json 的子任务字段：finishCond(KBFJAAFDHKJ) / triggerCond(FFOPGAJGHCA) / execActions(EFBOKHEHKJM)。",
+    "过场字幕：仅 videoConfig 类型可直接匹配 Subtitle/CHS/*.srt；timeline cutscene 通常没有对应 .srt。"
+  ]
+}

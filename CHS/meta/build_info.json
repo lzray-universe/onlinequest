@@ -1,0 +1,1 @@
+{"generatedAt":"2026-01-27 01:54:46","inputPackage":"AllQuests_Talks_CHS_Package.zip","questCount":3905,"notes":["每个主任务 JSON 已按子任务顺序(flow)整理，子任务下直接嵌入对应对话(talks)。","对话归属子任务的规则：TalkExcelConfig.beginCond 中的 QUEST_COND_STATE_EQUAL 的 param[0]。","若某些 talk 没有匹配到子任务，则放入 unmappedTalks。"]}

@@ -1,0 +1,917 @@
+# 73194 （test）须弥告示牌港口$HIDDEN
+
+
+---
+## 任务信息
+
+- **任务类型**：WQ
+
+---
+## 剧情流程（按子任务顺序）
+
+
+### 步骤 1：子任务 7319401
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319401,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "73194",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_ADD_QUEST_PROGRESS"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7319401
+
+**起点节点 `731940101`**
+
+
+**公告板：**此为教令官所设公告板，须弥城内重要事务皆在此公示，如有相关问题也可在此留言。
+
+
+
+
+### 步骤 2：子任务 7319402
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319402,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "73194",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_ADD_QUEST_PROGRESS"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7319402
+
+**起点节点 `731940201`**
+
+
+**公告板：**「听说了吗？听巡林的人说，北边的森林里不知道什么时候建起了一座华丽的宫殿」
+
+**公告板：**「不过好像去过那里的人最后都被骗得身无分文，被巡林官发现的时候就剩个裤衩了。」
+
+**公告板：**「问他们到底怎么回事也不说，就知道在那哭，真是可怕啊。」
+
+**公告板：**「大家还是不要在森林里乱跑了。」
+
+
+
+
+### 步骤 3：子任务 7319403
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319403,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    },
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319416,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "73194",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_ADD_QUEST_PROGRESS"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7319403
+
+**起点节点 `731940301`**
+
+
+**公告板：**须弥内外大事公告现已转由虚空投放，请大家随时佩戴「虚空终端」，以免错过重要消息。
+
+**公告板：**为方便异邦商旅与长者小孩，此公告板暂时保留。未来随时可能撤除，大家请勿过分依赖。
+
+
+
+#### 对话 7319416
+
+**起点节点 `731941601`**
+
+
+**公告板：**由于「虚空系统」现已关闭，为方便本城居民及来往旅客，此公告牌已重新启用。
+
+**公告板：**须弥近期内外大事将定期在此公告，如有缺漏请与教令院相关负责人联系。
+
+
+
+
+### 步骤 4：子任务 7319404
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319404,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "73194",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_ADD_QUEST_PROGRESS"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7319404
+
+**起点节点 `731940401`**
+
+
+**公告板：**本年度的「丰沃之惠」已开始发放。
+
+**公告板：**原则上将继续按照上年的发放政策和要求进行，具体内容已通过虚空投放。
+
+**公告板：**如有变化请提前联系附近的教令官向教令院提出修改申请。
+
+
+
+
+### 步骤 5：子任务 7319405
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319405,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "73194",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_ADD_QUEST_PROGRESS"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7319405
+
+**起点节点 `731940501`**
+
+
+**公告板：**近期城内「魔鳞病」多发，如您出现皮肤麻木、肢体无力等症状，或是观察到身体出现灰黑色的鳞片状组织，请及时前往健康之家接受治疗。
+
+**公告板：**若错过最佳治疗时间，使病情发展恶化，可能导致丧失行动能力等严重后果，希望大家加以重视。
+
+
+
+
+### 步骤 6：子任务 7319406
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319406,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "73194",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_ADD_QUEST_PROGRESS"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7319406
+
+**起点节点 `731940601`**
+
+
+**公告板：**特别提醒，整个须弥的佣兵行业都由「镀金旅团」承接，绝无二家。
+
+**公告板：**请勿轻信他人，以防被来头不明的人骗取佣金。
+
+**公告板：**如需雇佣保镖、守卫亦或有其他需求，请联系「三十人团」掌旗官鲁克沙或通过教令院联络员阿芬迪派发委托。
+
+
+
+
+### 步骤 7：子任务 7319407
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319407,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "73194",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_ADD_QUEST_PROGRESS"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7319407
+
+**起点节点 `731940701`**
+
+
+**公告板：**健康之家乃阿弥利多学院下属的医疗服务机构，为须弥内外居民提供免费医疗。
+
+**公告板：**该处执业医师皆获得生论派授予的行医许可，诊疗方案提供虚空多次审核，为百姓提供最专业、最安全的服务。
+
+**公告板：**请广大居民切勿相信来路不明的医师，以免人财两空。
+
+
+
+
+### 步骤 8：子任务 7319408
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319408,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "73194",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_ADD_QUEST_PROGRESS"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7319408
+
+**起点节点 `731940801`**
+
+
+**公告板：**请勿在城里人多的地方携带过多的金钱，以防遭遇偷窃。
+
+**公告板：**如若发生财物被窃，也请不要向附近巡逻的镀金旅团求助。
+
+**公告板：**因为很可能正是他们拿走了你的钱财。
+
+
+
+
+### 步骤 9：子任务 7319409
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319409,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "73194",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_ADD_QUEST_PROGRESS"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7319409
+
+**起点节点 `731940901`**
+
+
+**公告板：**悬赏：卡西姆
+
+**公告板：**此人自称大名鼎鼎、行走诸国的大盗，实则乃是招摇撞骗之徒，在镀金旅团各项实力排行榜上皆榜上无名。
+
+**公告板：**近期已发生多起与其有关的诈骗案件，请大家提高警惕，避免上当受骗。
+
+
+
+
+### 步骤 10：子任务 7319410
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319410,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "73194",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_ADD_QUEST_PROGRESS"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7319410
+
+**起点节点 `731941001`**
+
+
+**公告板：**悬赏：穆斯塔
+
+**公告板：**此人假扮教令官，游走巴扎港口各处，敲诈勒索，抢劫商队。现已由聚砂厅介入调查。
+
+**公告板：**有消息称此人已藏身密林之中，广大市民如有目击，务必上报。
+
+
+
+
+### 步骤 11：子任务 7319411
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319411,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "73194",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_ADD_QUEST_PROGRESS"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7319411
+
+**起点节点 `731941101`**
+
+
+**公告板：**既然教令官以后不用这个地方发公告了，那就正好当作我们兰巴德酒馆的留言板吧，以后有什么事情大家都可以在这留言。
+
+**公告板：**「老板，我之前订的十箱酒到货了吗，昨天我按约定时间来的结果没拿到。」
+
+**公告板：**怎会如此！之前有个金发的家伙自称是你的室友，已经把酒全都提走了。我记得你们还一起来过呢，该不会是搞错了吧？
+
+**公告板：**「…好的，我知道了。」
+
+
+
+
+### 步骤 12：子任务 7319412
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319412,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "73194",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_ADD_QUEST_PROGRESS"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7319412
+
+**起点节点 `731941201`**
+
+
+**公告板：**「大家如果要去雨林里面的话千万要小心，上次我被导师派去雨林采集一些草药，结果碰到了长鬓虎，差点就没命了。」
+
+**公告板：**「多亏附近有巡林员搭救，虽然她自称是见习巡林员，不过看上去经验丰富。最主要的是还给我带了好吃的食物压惊。」
+
+**公告板：**「听说她还是提纳里前辈的学生，真是名师出高徒啊。」
+
+
+
+
+### 步骤 13：子任务 7319413
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319413,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    },
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319414,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    },
+    {
+      "BFGALAINLMD": 0,
+      "LNHLPKELCAL": [
+        7319415,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [
+        "73194",
+        "1"
+      ],
+      "PAINLIBBLDK": "QUEST_EXEC_ADD_QUEST_PROGRESS"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+
+#### 对话 7319413
+
+**起点节点 `731941301`**
+
+
+**公告板：**远方的旅人，欢迎来到须弥。为体现树王大人普世的慈爱，「虚空终端」现已向所有旅客开放使用。
+
+**公告板：**初次进城的旅客可在教令官帕纳处领取。
+
+
+
+#### 对话 7319414
+
+**起点节点 `731941401`**
+
+
+**公告板：**远方的旅人，欢迎来到须弥。为体现草神大人普世的慈爱，「虚空终端」现已向所有旅客开放使用。
+
+**公告板：**初次进城的旅客可在教令官帕纳处领取。
+
+
+
+#### 对话 7319415
+
+**起点节点 `731941501`**
+
+
+**公告板：**远方的旅人，欢迎来到须弥。由于「虚空系统」已停止使用，「虚空终端」也将不再发放。
+
+**公告板：**若您仍持有未被回收的「虚空终端」，请在离开须弥前返还至教令官帕纳处。
+
+
+
+
+### 步骤 14：子任务 7319414
+
+**任务条件：**
+
+```json
+{
+  "finishCond": [
+    {
+      "BFGALAINLMD": 13,
+      "LNHLPKELCAL": [
+        73194,
+        0
+      ],
+      "PAINLIBBLDK": "QUEST_CONTENT_ADD_QUEST_PROGRESS",
+      "PPFLKMOMKAI": ""
+    }
+  ],
+  "triggerCond": [],
+  "execActions": [
+    {
+      "LNHLPKELCAL": [],
+      "PAINLIBBLDK": "QUEST_EXEC_ROLLBACK_PARENT_QUEST"
+    }
+  ],
+  "guide": {
+    "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+    "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+    "CCLPMCLNLBJ": "NONE",
+    "CJHEDKCIHPA": 0,
+    "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+    "GGJOHCAJAPP": 0,
+    "HFNCMGLBNGO": "",
+    "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+    "KCFINIEBBBG": 0,
+    "KEDGDANLBHP": "",
+    "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+    "LNHLPKELCAL": [],
+    "NOCCOBOFKHP": 0,
+    "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+    "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+  }
+}
+```
+
+（此步骤无对话）

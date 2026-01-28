@@ -1,0 +1,1899 @@
+{
+  "mainQuestId": 71036,
+  "title": "勇气的余晖",
+  "description": "虽然层岩之下的事件已经暂时平息，但是志琼似乎还在进行其他的勘测工作，去问问她的情况吧…",
+  "titleTextMapHash": 2353121503,
+  "descTextMapHash": 2645275358,
+  "mainQuestExcel": {
+    "mainQuestId": 71036,
+    "titleTextMapHash": 2353121503,
+    "title": "勇气的余晖",
+    "descTextMapHash": 2645275358,
+    "description": "虽然层岩之下的事件已经暂时平息，但是志琼似乎还在进行其他的勘测工作，去问问她的情况吧…",
+    "chapterId": 0,
+    "mainQuestTag": "MAINQUEST_TAG_NONE",
+    "activeMode": "PLAY_MODE_ALL",
+    "activityId": 0,
+    "luaPath": "Actor/Quest/WQ71036",
+    "mainQuestRaw": {
+      "activeMode": "PLAY_MODE_ALL",
+      "activityId": 0,
+      "chapterId": 0,
+      "descTextMapHash": 2645275358,
+      "EPJHBBICPCA": false,
+      "FFOAGHNMJKJ": 0,
+      "FNFALGGACGA": "",
+      "FOKHPBAGMPB": "",
+      "GMENNHMBBOH": [
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        },
+        {
+          "actionType": "NONE",
+          "id": 0
+        }
+      ],
+      "id": 71036,
+      "IELNANBAMLH": "QUEST_PAUSE_RES_DESTROY_NONE",
+      "IGHALKGCHAB": 4089722633,
+      "LEFIHLHODBM": [],
+      "luaPath": "Actor/Quest/WQ71036",
+      "mainQuestTag": "MAINQUEST_TAG_NONE",
+      "MHHFFHCLDKI": false,
+      "PEDANLIDLGE": 0,
+      "PEFIFLDHPEE": false,
+      "recommendLevel": 0,
+      "repeatable": false,
+      "resId": 0,
+      "rewardIdList": [
+        171036
+      ],
+      "series": 0,
+      "showRedPoint": false,
+      "showType": "QUEST_SHOW",
+      "specialShowCondIdList": [],
+      "specialShowQuestId": 0,
+      "specialShowRewardId": [],
+      "suggestTrackMainQuestList": [],
+      "suggestTrackOutOfOrder": false,
+      "taskID": 0,
+      "titleTextMapHash": 2353121503,
+      "type": "WQ",
+      "unlockDescTextMapHash": 2924858518
+    }
+  },
+  "flow": [
+    {
+      "subQuestId": 7103601,
+      "order": 1,
+      "stepDescription": "隔天任务隐藏环$HIDDEN",
+      "stepDescTextMapHash": 3329464412,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            71045,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_TIME_VAR_PASS_DAY",
+          "PPFLKMOMKAI": "1"
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+        "LNHLPKELCAL": [
+          "20523"
+        ],
+        "NOCCOBOFKHP": 0,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              71045,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_TIME_VAR_PASS_DAY",
+            "PPFLKMOMKAI": "1"
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [
+          {
+            "LNHLPKELCAL": [
+              "6",
+              "166001060,1"
+            ],
+            "PAINLIBBLDK": "QUEST_EXEC_REFRESH_GROUP_SUITE"
+          }
+        ],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+          "LNHLPKELCAL": [
+            "20523"
+          ],
+          "NOCCOBOFKHP": 0,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+        }
+      }
+    },
+    {
+      "subQuestId": 7103602,
+      "order": 2,
+      "stepDescription": "与志琼对话$HIDDEN",
+      "stepDescTextMapHash": 550561804,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7103602,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_UI",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+        "LNHLPKELCAL": [
+          "20523"
+        ],
+        "NOCCOBOFKHP": 6,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+      },
+      "isHidden": false,
+      "talkIds": [
+        7103602
+      ],
+      "talks": [
+        {
+          "talkId": 7103602,
+          "talkConfig": {
+            "checkActionAfter": false,
+            "crowdLOD0List": [],
+            "decoratorID": 0,
+            "disableTalkReview": false,
+            "dontBlockDaily": false,
+            "enableCameraDisplacement": false,
+            "extraLoadMarkId": [],
+            "finishExec": [
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              }
+            ],
+            "forceNpcNotDestroy": false,
+            "heroRuleId": 0,
+            "ignoreDragonTalkRule": false,
+            "isEnableNoBlackInter": false,
+            "linkBehaviorGrpId": 0,
+            "loadType": "TALK_NORMAL_QUEST",
+            "lockGameTime": false,
+            "lowPriority": false,
+            "newTalkFinishTime": false,
+            "onlyQuestNpc": false,
+            "participantId": [],
+            "prePerformCfg": "",
+            "questIdleTalk": false,
+            "randomTalkPos": 0,
+            "randomTalkPriorityList": [],
+            "removeDuplicatedRandomTalk": false,
+            "stayFreeStyle": false,
+            "talkMarkHideList": [],
+            "talkMarkType": "TALK_MARK_COMMON",
+            "activeMode": "PLAY_MODE_HOST",
+            "beginCond": [
+              {
+                "param": [
+                  "7103602",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              }
+            ],
+            "beginCondComb": "LOGIC_NONE",
+            "beginWay": "TALK_BEGIN_MANUAL",
+            "heroTalk": "TALK_HERO_MAIN",
+            "id": 7103602,
+            "initDialog": 710360201,
+            "nextRandomTalks": [],
+            "nextTalks": [],
+            "npcId": [
+              20523,
+              1005
+            ],
+            "performCfg": "QuestDialogue/WQ/Liyue_71036/Q7103602",
+            "priority": 5,
+            "questId": 71036,
+            "showRandomTalkCount": 0
+          },
+          "dialogs": [
+            {
+              "nodeId": 710360201,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 1967784730,
+              "text": "#你好！{NICKNAME}前辈，最近过得怎样！",
+              "nextNodeIds": [
+                710360202,
+                710360204
+              ]
+            },
+            {
+              "nodeId": 710360202,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 2763576754,
+              "text": "还好吧，你好些了吗？",
+              "nextNodeIds": [
+                710360203
+              ]
+            },
+            {
+              "nodeId": 710360203,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 1793256778,
+              "text": "谢谢关心，我已经没什么问题了。实在抱歉之前让大家费心。",
+              "nextNodeIds": [
+                710360206
+              ]
+            },
+            {
+              "nodeId": 710360206,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 1566523442,
+              "text": "哼，志琼你就不要到处乱跑啦！免得又像上次一样…",
+              "nextNodeIds": [
+                710360207
+              ]
+            },
+            {
+              "nodeId": 710360207,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 2682074578,
+              "text": "不会的，不会的。多亏了前辈的努力，层岩巨渊已经安全了许多。地质特征也变得…唔，稳定了许多。",
+              "nextNodeIds": [
+                710360208
+              ]
+            },
+            {
+              "nodeId": 710360208,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 2582301338,
+              "text": "不过瑾武姐和海迪夫还需要进一步分析那块神秘晶体的…那个…",
+              "nextNodeIds": [
+                710360209
+              ]
+            },
+            {
+              "nodeId": 710360209,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 1089918482,
+              "text": "唔，波长？海迪夫是这么说的，大概又是须弥的奇怪术语吧…总之，首先需要安置信标才能取得数据。",
+              "nextNodeIds": [
+                710360210
+              ]
+            },
+            {
+              "nodeId": 710360210,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 3215082418,
+              "text": "瑾武姐最近终于腾出空来把信标组装齐全了，我需要把它们安置在几个特定地点来读取读数。",
+              "nextNodeIds": [
+                710360211
+              ]
+            },
+            {
+              "nodeId": 710360211,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 3918944274,
+              "text": "隔一段时间后再前去回收，回收的数据就可以留给海迪夫去运算了。",
+              "nextNodeIds": [
+                710360212
+              ]
+            },
+            {
+              "nodeId": 710360212,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 2963265458,
+              "text": "之前由于很多区域都不安全，我们只能局限在营地内进行读数测算…",
+              "nextNodeIds": [
+                710360213
+              ]
+            },
+            {
+              "nodeId": 710360213,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 4220405682,
+              "text": "但现在既然通路被前辈打开了，用信标进行实地测量也就能得到更准确的数据了。",
+              "nextNodeIds": [
+                710360214
+              ]
+            },
+            {
+              "nodeId": 710360214,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 1688903554,
+              "text": "呼…有点事情做还是比闲着好。对了，前辈如果没有其他事情的话也请跟我一起来吧！",
+              "nextNodeIds": [
+                710360215,
+                710360217
+              ]
+            },
+            {
+              "nodeId": 710360215,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 1135894602,
+              "text": "那么，我们出发吧。",
+              "nextNodeIds": [
+                710360216
+              ]
+            },
+            {
+              "nodeId": 710360216,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 584092090,
+              "text": "好的，那么我们出发！",
+              "nextNodeIds": []
+            },
+            {
+              "nodeId": 710360217,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 4209833490,
+              "text": "有我们什么好处吗？",
+              "nextNodeIds": [
+                710360218
+              ]
+            },
+            {
+              "nodeId": 710360218,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 1005,
+              "speakerName": "派蒙",
+              "textMapHash": 1721112218,
+              "text": "你这也太直接了吧！虽然我也想知道就是啦…",
+              "nextNodeIds": [
+                710360219
+              ]
+            },
+            {
+              "nodeId": 710360219,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 741356370,
+              "text": "哈哈，咱们这次只是简单的一趟来回而已，不过瑾武姐应该会感谢你的。",
+              "nextNodeIds": []
+            },
+            {
+              "nodeId": 710360204,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 9358538,
+              "text": "不怎么样，至少还活着。你呢？",
+              "nextNodeIds": [
+                710360205
+              ]
+            },
+            {
+              "nodeId": 710360205,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 1614690434,
+              "text": "我还好啦…唔，也不怎么样就是了，冒险的风头都让前辈你出尽了，哈哈。",
+              "nextNodeIds": [
+                710360206
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7103602,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [
+          {
+            "LNHLPKELCAL": [
+              "6",
+              "166001528,2"
+            ],
+            "PAINLIBBLDK": "QUEST_EXEC_REFRESH_GROUP_SUITE"
+          }
+        ],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_UI",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+          "LNHLPKELCAL": [
+            "20523"
+          ],
+          "NOCCOBOFKHP": 6,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+        }
+      }
+    },
+    {
+      "subQuestId": 7103604,
+      "order": 4,
+      "stepDescription": "放置测算用的信标",
+      "stepDescTextMapHash": 270636764,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 1,
+          "LNHLPKELCAL": [
+            0,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_LUA_NOTIFY",
+          "PPFLKMOMKAI": "wq7103604"
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+        "LNHLPKELCAL": [
+          "Q7103604_guide",
+          "30"
+        ],
+        "NOCCOBOFKHP": 6,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 1,
+            "LNHLPKELCAL": [
+              0,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_LUA_NOTIFY",
+            "PPFLKMOMKAI": "wq7103604"
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [
+          {
+            "LNHLPKELCAL": [
+              "0",
+              "1"
+            ],
+            "PAINLIBBLDK": "QUEST_EXEC_INC_QUEST_VAR"
+          }
+        ],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+          "LNHLPKELCAL": [
+            "Q7103604_guide",
+            "30"
+          ],
+          "NOCCOBOFKHP": 6,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+        }
+      }
+    },
+    {
+      "subQuestId": 7103605,
+      "order": 5,
+      "stepDescription": "放置测算用的信标",
+      "stepDescTextMapHash": 2234071492,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 1,
+          "LNHLPKELCAL": [
+            0,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_LUA_NOTIFY",
+          "PPFLKMOMKAI": "wq7103605"
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+        "LNHLPKELCAL": [
+          "Q7103605_guide",
+          "30"
+        ],
+        "NOCCOBOFKHP": 6,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 1,
+            "LNHLPKELCAL": [
+              0,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_LUA_NOTIFY",
+            "PPFLKMOMKAI": "wq7103605"
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [
+          {
+            "LNHLPKELCAL": [
+              "0",
+              "1"
+            ],
+            "PAINLIBBLDK": "QUEST_EXEC_INC_QUEST_VAR"
+          }
+        ],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+          "LNHLPKELCAL": [
+            "Q7103605_guide",
+            "30"
+          ],
+          "NOCCOBOFKHP": 6,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+        }
+      }
+    },
+    {
+      "subQuestId": 7103606,
+      "order": 6,
+      "stepDescription": "放置测算用的信标",
+      "stepDescTextMapHash": 1535311316,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 1,
+          "LNHLPKELCAL": [
+            0,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_LUA_NOTIFY",
+          "PPFLKMOMKAI": "wq7103606"
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+        "LNHLPKELCAL": [
+          "Q7103606_guide",
+          "30"
+        ],
+        "NOCCOBOFKHP": 6,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 1,
+            "LNHLPKELCAL": [
+              0,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_LUA_NOTIFY",
+            "PPFLKMOMKAI": "wq7103606"
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [
+          {
+            "LNHLPKELCAL": [
+              "0",
+              "1"
+            ],
+            "PAINLIBBLDK": "QUEST_EXEC_INC_QUEST_VAR"
+          }
+        ],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+          "LNHLPKELCAL": [
+            "Q7103606_guide",
+            "30"
+          ],
+          "NOCCOBOFKHP": 6,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+        }
+      }
+    },
+    {
+      "subQuestId": 7103607,
+      "order": 7,
+      "stepDescription": "放置测算用的信标",
+      "stepDescTextMapHash": 1667156972,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 1,
+          "LNHLPKELCAL": [
+            0,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_LUA_NOTIFY",
+          "PPFLKMOMKAI": "wq7103607"
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+        "LNHLPKELCAL": [
+          "Q7103607_guide",
+          "30"
+        ],
+        "NOCCOBOFKHP": 6,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 1,
+            "LNHLPKELCAL": [
+              0,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_LUA_NOTIFY",
+            "PPFLKMOMKAI": "wq7103607"
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [
+          {
+            "LNHLPKELCAL": [
+              "0",
+              "1"
+            ],
+            "PAINLIBBLDK": "QUEST_EXEC_INC_QUEST_VAR"
+          }
+        ],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+          "LNHLPKELCAL": [
+            "Q7103607_guide",
+            "30"
+          ],
+          "NOCCOBOFKHP": 6,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+        }
+      }
+    },
+    {
+      "subQuestId": 7103608,
+      "order": 8,
+      "stepDescription": "放置测算用的信标",
+      "stepDescTextMapHash": 3057187940,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 1,
+          "LNHLPKELCAL": [
+            0,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_LUA_NOTIFY",
+          "PPFLKMOMKAI": "wq7103608"
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+        "LNHLPKELCAL": [
+          "Q7103608_guide",
+          "30"
+        ],
+        "NOCCOBOFKHP": 6,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 1,
+            "LNHLPKELCAL": [
+              0,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_LUA_NOTIFY",
+            "PPFLKMOMKAI": "wq7103608"
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [
+          {
+            "LNHLPKELCAL": [
+              "0",
+              "1"
+            ],
+            "PAINLIBBLDK": "QUEST_EXEC_INC_QUEST_VAR"
+          }
+        ],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_POINT",
+          "LNHLPKELCAL": [
+            "Q7103608_guide",
+            "30"
+          ],
+          "NOCCOBOFKHP": 6,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+        }
+      }
+    },
+    {
+      "subQuestId": 7103609,
+      "order": 9,
+      "stepDescription": "放置五个信标进度总控$HIDDEN",
+      "stepDescTextMapHash": 1032240260,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            0,
+            5
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_QUEST_VAR_EQUAL",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+        "LNHLPKELCAL": [],
+        "NOCCOBOFKHP": 0,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              0,
+              5
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_QUEST_VAR_EQUAL",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_NONE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_NONE",
+          "LNHLPKELCAL": [],
+          "NOCCOBOFKHP": 0,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_NONE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NONE"
+        }
+      }
+    },
+    {
+      "subQuestId": 7103611,
+      "order": 10,
+      "stepDescription": "返回层岩巨渊的勘探队营地",
+      "stepDescTextMapHash": 3199302164,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 1,
+          "LNHLPKELCAL": [
+            0,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_LUA_NOTIFY",
+          "PPFLKMOMKAI": "166001246"
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+        "LNHLPKELCAL": [
+          "Q7103611_guide",
+          "25"
+        ],
+        "NOCCOBOFKHP": 6,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+        "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+      },
+      "isHidden": false,
+      "talkIds": [],
+      "talks": [],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 1,
+            "LNHLPKELCAL": [
+              0,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_LUA_NOTIFY",
+            "PPFLKMOMKAI": "166001246"
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_SCENE",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+          "LNHLPKELCAL": [
+            "Q7103611_guide",
+            "25"
+          ],
+          "NOCCOBOFKHP": 6,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+          "PAINLIBBLDK": "QUEST_GUIDE_LOCATION"
+        }
+      }
+    },
+    {
+      "subQuestId": 7103610,
+      "order": 11,
+      "stepDescription": "与志琼对话",
+      "stepDescTextMapHash": 1305865116,
+      "finishConds": [
+        {
+          "BFGALAINLMD": 0,
+          "LNHLPKELCAL": [
+            7103603,
+            0
+          ],
+          "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+          "PPFLKMOMKAI": ""
+        }
+      ],
+      "guide": {
+        "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+        "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+        "CCLPMCLNLBJ": "NONE",
+        "CJHEDKCIHPA": 0,
+        "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_UI",
+        "GGJOHCAJAPP": 0,
+        "HFNCMGLBNGO": "",
+        "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+        "KCFINIEBBBG": 0,
+        "KEDGDANLBHP": "",
+        "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+        "LNHLPKELCAL": [
+          "20523"
+        ],
+        "NOCCOBOFKHP": 6,
+        "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+        "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+      },
+      "isHidden": false,
+      "talkIds": [
+        7103603
+      ],
+      "talks": [
+        {
+          "talkId": 7103603,
+          "talkConfig": {
+            "checkActionAfter": false,
+            "crowdLOD0List": [],
+            "decoratorID": 0,
+            "disableTalkReview": false,
+            "dontBlockDaily": false,
+            "enableCameraDisplacement": false,
+            "extraLoadMarkId": [],
+            "finishExec": [
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "TALK_EXEC_NONE"
+              }
+            ],
+            "forceNpcNotDestroy": false,
+            "heroRuleId": 0,
+            "ignoreDragonTalkRule": false,
+            "isEnableNoBlackInter": false,
+            "linkBehaviorGrpId": 0,
+            "loadType": "TALK_NORMAL_QUEST",
+            "lockGameTime": false,
+            "lowPriority": false,
+            "newTalkFinishTime": false,
+            "onlyQuestNpc": false,
+            "participantId": [],
+            "prePerformCfg": "",
+            "questIdleTalk": false,
+            "randomTalkPos": 0,
+            "randomTalkPriorityList": [],
+            "removeDuplicatedRandomTalk": false,
+            "stayFreeStyle": false,
+            "talkMarkHideList": [],
+            "talkMarkType": "TALK_MARK_NONE",
+            "activeMode": "PLAY_MODE_HOST",
+            "beginCond": [
+              {
+                "param": [
+                  "7103610",
+                  "2",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_STATE_EQUAL"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              },
+              {
+                "param": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "QUEST_COND_NONE"
+              }
+            ],
+            "beginCondComb": "LOGIC_NONE",
+            "beginWay": "TALK_BEGIN_AUTO",
+            "heroTalk": "TALK_HERO_MAIN",
+            "id": 7103603,
+            "initDialog": 710360301,
+            "nextRandomTalks": [],
+            "nextTalks": [],
+            "npcId": [
+              20523
+            ],
+            "performCfg": "",
+            "priority": 5,
+            "questId": 71036,
+            "showRandomTalkCount": 0
+          },
+          "dialogs": [
+            {
+              "nodeId": 710360301,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 2972894474,
+              "text": "这一趟辛苦前辈了，一点小心意请收下！",
+              "nextNodeIds": [
+                710360302
+              ]
+            },
+            {
+              "nodeId": 710360302,
+              "roleType": "TALK_ROLE_PLAYER",
+              "speakerId": null,
+              "speakerName": "旅行者",
+              "textMapHash": 4274095258,
+              "text": "太客气了。",
+              "nextNodeIds": [
+                710360303
+              ]
+            },
+            {
+              "nodeId": 710360303,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 3844582466,
+              "text": "呼…最近层岩巨渊似乎停止了地形上的异变，这也说明我只需要对已有的地图进行一点小小的增补就够了。",
+              "nextNodeIds": [
+                710360304
+              ]
+            },
+            {
+              "nodeId": 710360304,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 1894076202,
+              "text": "多谢了前辈的冒险，我们的工作也相对轻松了很多。",
+              "nextNodeIds": [
+                710360305
+              ]
+            },
+            {
+              "nodeId": 710360305,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 2386930794,
+              "text": "啊，我就不多留前辈啦。如果想要休息或者继续探险，就请自便吧！",
+              "nextNodeIds": [
+                710360306
+              ]
+            },
+            {
+              "nodeId": 710360306,
+              "roleType": "TALK_ROLE_NPC",
+              "speakerId": 20523,
+              "speakerName": "志琼",
+              "textMapHash": 212370194,
+              "text": "呼…距离回收信标还有挺长时间的，如果下次冒险也能再叫上前辈就好了。",
+              "nextNodeIds": []
+            }
+          ]
+        }
+      ],
+      "conditions": {
+        "finishCond": [
+          {
+            "BFGALAINLMD": 0,
+            "LNHLPKELCAL": [
+              7103603,
+              0
+            ],
+            "PAINLIBBLDK": "QUEST_CONTENT_COMPLETE_TALK",
+            "PPFLKMOMKAI": ""
+          }
+        ],
+        "triggerCond": [],
+        "execActions": [
+          {
+            "LNHLPKELCAL": [
+              "0"
+            ],
+            "PAINLIBBLDK": "QUEST_EXEC_INIT_TIME_VAR"
+          }
+        ],
+        "guide": {
+          "BEALNDJFMMC": "QUEST_GUIDE_IN_SCENE_STYLE_NONE",
+          "BJKFMDGPIBN": "QUEST_GUIDE_INDICATOR_STYLE_NONE",
+          "CCLPMCLNLBJ": "NONE",
+          "CJHEDKCIHPA": 0,
+          "EMAIGPLHEJH": "QUEST_GUIDE_LAYER_UI",
+          "GGJOHCAJAPP": 0,
+          "HFNCMGLBNGO": "",
+          "IDLNFDCEJLG": "QUEST_GUIDE_AREA_STYLE_DEFAULT",
+          "KCFINIEBBBG": 0,
+          "KEDGDANLBHP": "",
+          "KNMAMMFJAOB": "QUEST_GUIDE_STYLE_TARGET",
+          "LNHLPKELCAL": [
+            "20523"
+          ],
+          "NOCCOBOFKHP": 6,
+          "OFEBJNGBEPL": "QUEST_GUIDE_AUTO_ENABLE",
+          "PAINLIBBLDK": "QUEST_GUIDE_NPC"
+        }
+      }
+    }
+  ],
+  "unmappedTalks": [],
+  "questNarration": [],
+  "talkIds": [
+    7103602,
+    7103603,
+    7104116
+  ],
+  "speakerCounts": [
+    {
+      "roleType": "TALK_ROLE_NPC",
+      "speakerId": 20523,
+      "speakerName": "志琼",
+      "count": 41
+    },
+    {
+      "roleType": "TALK_ROLE_PLAYER",
+      "speakerId": null,
+      "speakerName": "旅行者",
+      "count": 12
+    },
+    {
+      "roleType": "TALK_ROLE_NPC",
+      "speakerId": 1005,
+      "speakerName": "派蒙",
+      "count": 6
+    }
+  ],
+  "raw": {
+    "ANDJNFLIDIJ": "PLAY_MODE_ALL",
+    "BEGCMMJKCFC": [
+      171036
+    ],
+    "BHCBFLFOGJN": 0,
+    "BPEIDGPCLGA": false,
+    "CBBBCAKOFGO": 2645275358,
+    "CHECNJEMEFE": {},
+    "CJPLOBIFHLG": "MAINQUEST_TAG_NONE",
+    "CMDGLJAOFOJ": [],
+    "EPJHBBICPCA": false,
+    "FBEFCEJCBIK": {},
+    "FFOAGHNMJKJ": 0,
+    "FNFALGGACGA": "",
+    "FOKHPBAGMPB": "",
+    "GBFMDJLKJBF": [],
+    "GMENNHMBBOH": [],
+    "HCJHEADFCAO": 0,
+    "IBEGAHMEABP": [
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Liyue_71036/Q7103602",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 5,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_NONE",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_MANUAL",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 710360201,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7103602,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          20523,
+          1005
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_COMMON",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": false,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "7103602",
+              "2"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 14409336029762999484,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 71036,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      },
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 5,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_NONE",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_AUTO",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 710360301,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7103603,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          20523
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_NONE",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": false,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "7103610",
+              "2"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 16793882514914590194,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 71036,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      },
+      {
+        "<DLGBBMLABOA>k__BackingField": 0,
+        "ABDCADBLCFC": 0,
+        "AIMIPKGBAHC": "QuestDialogue/WQ/Liyue_71041/Q7104112",
+        "ANDJNFLIDIJ": "PLAY_MODE_HOST",
+        "AOLKCANJCMJ": 4,
+        "BKDENCDKDEE": "",
+        "BPIIFMJLJAJ": [],
+        "DAMGEPEMGNO": false,
+        "DBACCKDPONG": [],
+        "DIAFFIANKPH": false,
+        "DKOMBMCJMMN": false,
+        "EFBOKHEHKJM": [],
+        "EIDINNIHMHD": false,
+        "EKANPNMEFMG": [],
+        "ENDBMMDPPAH": [],
+        "FALLCBHGKON": "LOGIC_NONE",
+        "GEPGLHFDBNF": [],
+        "GLJMLHNKKKO": "TALK_BEGIN_MANUAL",
+        "HJFLPAICAEO": false,
+        "HNFEAICLPLM": [],
+        "HPPIPDNHFJG": false,
+        "IBGGIIDBOAG": false,
+        "IEFDIICFIJK": 710411201,
+        "ILHDCGDKKKA": "TALK_HERO_MAIN",
+        "ILHDNJDDEOP": 7104116,
+        "JGFEJPBPHGJ": [],
+        "JNFAMBOFGHJ": false,
+        "KINCAGMDMHH": [
+          20523,
+          1005
+        ],
+        "KJLNGKKBBOI": "TALK_MARK_NONE",
+        "KNBDEPPFNBN": 0,
+        "LCIDOOMOIPM": 0,
+        "LIJPPLJCHGI": 0,
+        "LMAPLNHKPOH": [],
+        "MBDOOOMPFCD": false,
+        "MEGMNOELHAO": false,
+        "MMCFFPNNDDP": false,
+        "MOAKNHNKCON": 0,
+        "MOFGBFLPGDM": [],
+        "NGNGBPOHNJF": [
+          {
+            "_param": [
+              "7103713",
+              "3"
+            ],
+            "_type": "QUEST_COND_STATE_EQUAL"
+          }
+        ],
+        "NIJAPEJKLDI": false,
+        "NMKNFLIHHHE": false,
+        "NMMOKMEKDJO": false,
+        "NPGONNBAOOI": 7816605103149801341,
+        "OAIIIMFGNGM": false,
+        "OAOCMNEPKOG": 71036,
+        "ODEOIJMOMPL": [],
+        "OMLNDCDBHEO": false,
+        "PBFMFECIGDG": "TALK_NORMAL_QUEST",
+        "PCCKKGAHFFJ": false,
+        "PNACKFKJJHM": []
+      }
+    ],
+    "IBNCKLKHAKG": 0,
+    "IEGCPJALJOA": 0,
+    "IELNANBAMLH": "QUEST_PAUSE_RES_DESTROY_NONE",
+    "ILHDNJDDEOP": 71036,
+    "ILICEMABDDI": [],
+    "JAPLGJLDPHJ": [],
+    "JDCIPCDDDPK": 0,
+    "JDEFCNEDMLL": 0,
+    "KCONOGOIGIH": 0,
+    "LEFIHLHODBM": [],
+    "LMCFKPMJGEO": false,
+    "MEJIMPLKPHN": 0,
+    "MHHFFHCLDKI": false,
+    "MMOEEOFGHHG": 2353121503,
+    "NJGLJLODPBN": false,
+    "NKAKCKAJCLD": 0,
+    "NOCNCPAGOPC": "Actor/Quest/WQ71036",
+    "OPIDGNOCOHD": "QUEST_SHOW",
+    "PAINLIBBLDK": "WQ",
+    "PEDANLIDLGE": 0,
+    "PEFIFLDHPEE": false,
+    "PIGICJKACHG": [],
+    "PPJLLGCPCOL": {
+      "HDHKBHOLGIM": {}
+    }
+  },
+  "meta": {
+    "questType": "WQ",
+    "series": 0,
+    "mainQuestTag": "MAINQUEST_TAG_NONE",
+    "showType": "QUEST_SHOW",
+    "repeatable": false,
+    "recommendLevel": 0,
+    "chapterId": 0,
+    "chapterTitle": "",
+    "chapterNum": "",
+    "needPlayerLevel": null,
+    "cityId": null,
+    "cityName": "",
+    "unlockDesc": "",
+    "preMainQuestIds": [
+      71045
+    ],
+    "nextMainQuestIds": [
+      71038
+    ],
+    "rewardIdList": [
+      171036
+    ],
+    "rewards": [
+      {
+        "rewardId": 171036,
+        "items": [
+          {
+            "itemId": 102,
+            "name": "冒险阅历",
+            "count": 250,
+            "itemType": "ITEM_VIRTUAL",
+            "rank": 13
+          },
+          {
+            "itemId": 201,
+            "name": "原石",
+            "count": 30,
+            "itemType": "ITEM_VIRTUAL",
+            "rank": 30
+          },
+          {
+            "itemId": 202,
+            "name": "摩拉",
+            "count": 30000,
+            "itemType": "ITEM_VIRTUAL",
+            "rank": 10
+          },
+          {
+            "itemId": 104003,
+            "name": "大英雄的经验",
+            "count": 3,
+            "itemType": "ITEM_MATERIAL",
+            "rank": 100
+          }
+        ],
+        "playerExp": 0,
+        "hcoin": 0,
+        "scoin": 0
+      }
+    ]
+  }
+}
