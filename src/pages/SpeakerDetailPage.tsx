@@ -3,29 +3,26 @@ import { Link, useParams } from 'react-router-dom'
 import { Badge } from '../components/ui/badge'
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
 import { useAsync } from '../hooks/useAsync'
-import { getManifest, getSiteStats, getSpeakerIndex } from '../lib/data'
+import { getSpeakersIndex } from '../lib/data'
 import { QUEST_TYPE_LABELS } from '../lib/questType'
-import type { ManifestQuest } from '../types/quest'
+import type { SpeakerTaskSummary } from '../types/speakers'
 
 export const SpeakerDetailPage = () => {
   const { speakerId } = useParams()
-  const id = Number(speakerId)
-  const { data: manifest } = useAsync(getManifest, [])
-  const { data: speakerIndex } = useAsync(getSpeakerIndex, [])
-  const { data: stats } = useAsync(getSiteStats, [])
+  const id = speakerId ?? ''
+  const { data: speakersIndex, error } = useAsync(getSpeakersIndex, [])
 
   useEffect(() => {
     document.title = `角色 ${speakerId} · OnlineQuest`
   }, [speakerId])
 
   const quests = useMemo(() => {
-    if (!manifest || !speakerIndex) return []
-    const questIds = speakerIndex[String(id)] ?? []
-    const map = new Map(manifest.map((quest) => [quest.id, quest]))
+    if (!speakersIndex) return []
+    const questIds = speakersIndex.speakerById?.[String(id)]?.taskIds ?? []
     return questIds
-      .map((questId) => map.get(questId))
-      .filter((quest): quest is ManifestQuest => Boolean(quest))
-  }, [manifest, speakerIndex, id])
+      .map((questId) => speakersIndex.taskSummaryById[String(questId)])
+      .filter((quest): quest is SpeakerTaskSummary => Boolean(quest))
+  }, [speakersIndex, id])
 
   const grouped = useMemo(() => {
     const map = new Map<string, typeof quests>()
@@ -38,7 +35,7 @@ export const SpeakerDetailPage = () => {
     return Array.from(map.entries())
   }, [quests])
 
-  const speakerName = stats?.speakerTotals?.[String(id)]?.speakerName
+  const speakerName = speakersIndex?.speakerById?.[String(id)]?.name
 
   return (
     <div className="space-y-6">
@@ -52,6 +49,9 @@ export const SpeakerDetailPage = () => {
           <CardTitle>出现任务</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
+          {error ? (
+            <div className="text-sm text-destructive">角色数据加载失败，请稍后重试。</div>
+          ) : null}
           {grouped.map(([group, items]) => (
             <div key={group} className="space-y-2">
               <div className="flex items-center justify-between">

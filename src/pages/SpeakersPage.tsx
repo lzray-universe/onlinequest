@@ -4,11 +4,11 @@ import { Search, User } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
 import { Input } from '../components/ui/input'
 import { useAsync } from '../hooks/useAsync'
-import { getSiteStats } from '../lib/data'
+import { getSpeakersIndex } from '../lib/data'
 import { formatNumber } from '../lib/utils'
 
 export const SpeakersPage = () => {
-  const { data: stats } = useAsync(getSiteStats, [])
+  const { data: speakersIndex, error } = useAsync(getSpeakersIndex, [])
   const [query, setQuery] = useState('')
 
   useEffect(() => {
@@ -16,12 +16,10 @@ export const SpeakersPage = () => {
   }, [])
 
   const speakers = useMemo(() => {
-    const list = stats
-      ? Object.values(stats.speakerTotals).sort((a, b) => b.count - a.count)
-      : []
+    const list = speakersIndex?.speakers ?? []
     if (!query) return list
-    return list.filter((speaker) => speaker.speakerName.includes(query))
-  }, [stats, query])
+    return list.filter((speaker) => speaker.name.includes(query))
+  }, [speakersIndex, query])
 
   return (
     <div className="space-y-6">
@@ -41,11 +39,19 @@ export const SpeakersPage = () => {
         </CardContent>
       </Card>
 
+      {error ? (
+        <Card>
+          <CardContent className="py-6 text-sm text-destructive">
+            角色数据加载失败，请稍后重试。
+          </CardContent>
+        </Card>
+      ) : null}
+
       <div className="grid gap-4">
         {speakers.map((speaker) => (
           <Link
-            key={speaker.speakerId}
-            to={`/speakers/${speaker.speakerId}`}
+            key={speaker.id}
+            to={`/speakers/${speaker.id}`}
             className="flex items-center justify-between rounded-2xl border border-border bg-card px-6 py-4 shadow-soft"
           >
             <div className="flex items-center gap-3">
@@ -53,8 +59,8 @@ export const SpeakersPage = () => {
                 <User className="h-5 w-5" />
               </div>
               <div>
-                <p className="text-sm font-semibold">{speaker.speakerName}</p>
-                <p className="text-xs text-muted-foreground">ID: {speaker.speakerId}</p>
+                <p className="text-sm font-semibold">{speaker.name}</p>
+                <p className="text-xs text-muted-foreground">ID: {speaker.id}</p>
               </div>
             </div>
             <p className="text-sm font-semibold">{formatNumber(speaker.count)} 句</p>
