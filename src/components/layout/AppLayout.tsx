@@ -58,7 +58,7 @@ export const AppLayout = ({ children }: { children?: React.ReactNode }) => {
               </div>
               <div>
                 <p className="text-sm text-muted-foreground">OnlineQuest</p>
-                <p className="text-lg font-semibold">剧情任务浏览站</p>
+                <p className="text-lg font-semibold">原神剧情任务浏览站</p>
               </div>
             </Link>
           </div>
