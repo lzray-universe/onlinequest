@@ -4,9 +4,10 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "tsx scripts/buildData.ts && tsx scripts/precompute-speakers.ts && vite",
     "build:data": "tsx scripts/buildData.ts",
-    "build": "tsx scripts/buildData.ts && tsc -b && vite build",
+    "precompute": "tsx scripts/precompute-speakers.ts",
+    "build": "npm run build:data && npm run precompute && tsc -b && vite build",
     "lint": "eslint .",
     "format": "prettier --write .",
     "preview": "vite preview"

@@ -1,4 +1,5 @@
 import type { IndexesData, ManifestQuest, QuestData, SiteStats } from '../types/quest'
+import type { SpeakersIndex } from '../types/speakers'
 import { getAssetUrl } from './utils'
 
 const cache = new Map<string, any>()
@@ -38,5 +39,5 @@ export const getReadableMarkdown = async (path: string) => {
 }
 export const getBuildInfo = (name: string) => fetchJson<Record<string, any>>(`data/meta/${name}`)
 export const getSubtitleText = (path: string) => fetchText(`data/subtitles/${path}`)
-export const getSpeakerIndex = () =>
-  fetchJson<Record<string, number[]>>('data/speaker_index.json')
+export const getSpeakersIndex = () =>
+  fetchJson<SpeakersIndex>('generated/speakers-index.json')

@@ -13,6 +13,8 @@ dist-ssr
 *.local
 public/data/*
 !public/data/.gitkeep
+public/generated/*
+!public/generated/.gitkeep
 CHS/
 
 # Editor directories and files
